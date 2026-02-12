@@ -1,5 +1,8 @@
 # AGICE Overview (Public‑Safe)
 
+> **Patent Pending (USPTO Provisional)** — Application No. **63/978,753** — Filed **2026-02-09**.  
+> This repository and linked artifacts are provided for research/verification and do not imply a granted patent.
+
 AGICE (Aleph General Intelligence Convergence Engine) is an evidence‑native reasoning system that couples a generator (LLM) with task verifiers in an iterative closed loop.
 
 ## Core loop (conceptual)

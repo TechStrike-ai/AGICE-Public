@@ -1,5 +1,8 @@
 # AGICE Evidence Pack (v1)
 
+## Patent status
+**Patent Pending (USPTO Provisional)** — Application No. **63/978,753** — Filed **2026-02-09**.
+
 **Zenodo DOI:** https://doi.org/10.5281/zenodo.18608886
 
 This record contains:
