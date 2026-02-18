@@ -3,20 +3,18 @@
     "lock_sha256": "eb05cd3c4e6eb13664094321143edbd16adb52a2b59e273ac4342257ca2e9ea5",
     "lock_source": "requirements.txt"
   },
-  "doi": "10.5281/zenodo.18662294",
+  "doi": "10.5281/zenodo.18678131",
   "environment": {
     "host_os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
     "openssl_version": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)",
     "python_runtime": "3.12.3"
   },
-  "generated_utc": "2026-02-16T20:15:24.525792+00:00",
+  "generated_utc": "2026-02-18T07:27:40+00:00",
   "repository": {
     "dirty_tree": true,
-    "dirty_tree_meta_path": "manifests/dirty-tree-meta.json",
-    "dirty_tree_meta_sha256": "a53c58fe81d7e0e2daf4a2ffae84660435ebd09c222ac80ce57aaae124f37a80",
+    "dirty_tree_details_public": false,
+    "dirty_tree_note": "redacted_for_public_release",
     "git_commit": "733ca495383f79ee352e796409694189f1a8182c",
-    "tracked_diff_path": "manifests/dirty-tree-tracked.diff",
-    "tracked_diff_sha256": "9d07ca8a2b12ee52811384bf54fdaa5ab1986d5b135a8531a33708174c089804",
     "url": "https://github.com/TechStrike-ai/AGICE-Public"
   },
   "runtime_config_summary": {

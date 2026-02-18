@@ -1,9 +1,10 @@
 # AGICE Demo Replay — Evidence Bundle
 
-Version: `1.0.1`
+Version: `1.0.2`
 
-DOI: `10.5281/zenodo.18662294`
+DOI: `10.5281/zenodo.18678131`
 Canonical repository: `https://github.com/TechStrike-ai/AGICE-Public`
+Source build repository: `https://github.com/TechStrike-ai/AGICEv3_repo`
 
 
 This archive is structured for public replay and offline integrity verification.
@@ -12,7 +13,6 @@ This archive is structured for public replay and offline integrity verification.
 
 - `bundles/` — per-run AGICE evidence bundles
 - `reports/executive-summary.csv` — paper-ready A1/A2/A3 summary
-- `reports/overall-report.md` — overall narrative report
 - `reports/trajectory-table.md` — sample A3 branching trajectory table (markdown)
 - `reports/trajectory-table.csv` — sample A3 branching trajectory table (csv)
 - `reports/replay-coverage.csv` — per-bundle replay report presence map
@@ -28,8 +28,6 @@ This archive is structured for public replay and offline integrity verification.
 - `manifests/ops-provenance.json` — ops-grade provenance snapshot
 - `manifests/build-attestation.json` — signed release attestation payload
 - `manifests/build-attestation.sig` — detached signature for build attestation
-- `manifests/dirty-tree-meta.json` — dirty-tree snapshot metadata (hashes + counts)
-- `manifests/dirty-tree-tracked.diff` — tracked working-tree diff artifact
 - `checksums/SHA256SUMS.txt` — signed global checksum manifest
 - `checksums/SHA256SUMS.sig` — SHA256SUMS signature
 - `checksums/SIGNING-PUBLIC-KEY.pem` — public key for offline verification

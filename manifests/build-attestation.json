@@ -1,14 +1,12 @@
 {
-  "attestation_id": "agice-zenodo-pack-attestation-v1.0.1",
-  "bundle_version": "1.0.1",
-  "created_utc": "2026-02-16T20:15:24.526343+00:00",
+  "attestation_id": "agice-zenodo-pack-attestation-v1.0.2",
+  "bundle_version": "1.0.2",
+  "created_utc": "2026-02-18T07:27:40+00:00",
   "dirty_tree_provenance": {
-    "meta_path": "manifests/dirty-tree-meta.json",
-    "meta_sha256": "a53c58fe81d7e0e2daf4a2ffae84660435ebd09c222ac80ce57aaae124f37a80",
-    "tracked_diff_path": "manifests/dirty-tree-tracked.diff",
-    "tracked_diff_sha256": "9d07ca8a2b12ee52811384bf54fdaa5ab1986d5b135a8531a33708174c089804"
+    "details_public": false,
+    "status": "redacted_for_public_release"
   },
-  "doi": "10.5281/zenodo.18662294",
+  "doi": "10.5281/zenodo.18678131",
   "repository": {
     "dirty_tree": true,
     "git_commit": "733ca495383f79ee352e796409694189f1a8182c",

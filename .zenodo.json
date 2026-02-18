@@ -6,7 +6,7 @@
     }
   ],
   "description": "<p>AGICE demo replay evidence bundle with 39 runs and 39 hash-chained evidence bundles. Includes signed SHA-256 manifests, governance policy artifacts, rollback/escalation case studies, and offline verification tooling.</p>",
-  "doi": "10.5281/zenodo.18662294",
+  "doi": "10.5281/zenodo.18678131",
   "keywords": [
     "AGICE",
     "evidence bundle",
@@ -30,5 +30,5 @@
   ],
   "title": "AGICE Demo Replay — Evidence Bundle",
   "upload_type": "dataset",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
