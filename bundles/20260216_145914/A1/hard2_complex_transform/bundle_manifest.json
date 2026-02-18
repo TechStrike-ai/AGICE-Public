@@ -1,0 +1,65 @@
+{
+  "bundle_id": "2160800d-46de-4e79-9b21-d18730041bf0",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "final_decision": {
+    "code": "import sys\ninput = sys.stdin.readline\n\ndef solve():\n    parts = input().split()\n    n = int(parts[0])\n    ops = parts[1] if len(parts) > 1 else \"\"\n    out = []\n    for _ in range(n):\n        x, y = map(int, input().split())\n        for op in ops:\n            if op == 'R':\n                x, y = -y, x  # Rotate 90° counter-clockwise\n            elif op == 'H':\n                x, y = -x, -y  # Rotate 180°\n            elif op == 'D':\n                x, y = y, -x  # Rotate 90° clockwise\n            elif op == 'X':\n                y = -y  # Reflect across x-axis\n        out.append(f\"{x} {y}\")\n    print('\\n'.join(out))\n\nsolve()",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 1,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+    "events_count": 8,
+    "events_hash_chain_tip": "93c06526fa4bc2051c3a54411940463b4cfcdc0bcaa6fe5afbe623d6e2476d13",
+    "policy_id": "agice-governance-v1.0.1",
+    "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+    "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+  },
+  "provenance": {
+    "config_path": "configs/drop2_sweetspot_tight.yaml",
+    "config_sha256": "3834d61d300f39a112cf51a4da62459c134488e4715dbbf51e2db5a93301665c",
+    "evaluated_task_ids": [
+      "hard2_complex_transform"
+    ],
+    "model": "gpt-4o-mini",
+    "policy_binding": {
+      "decision_function_path": "policies/decision_function.v1.0.1.md",
+      "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+      "policy_id": "agice-governance-v1.0.1",
+      "policy_path": "policies/governance_policy.v1.0.1.yaml",
+      "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+      "verifier_pack_path": "policies/verifier_pack.v1.0.1.yaml",
+      "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+    },
+    "reasoning_effort": "",
+    "run_id": "20260216_145914",
+    "seed_base": 61,
+    "slice_id": "a1fail_only_hard2_complex_transform",
+    "slice_sha256": "b2cd6ca44ba7ab5146af3f67e90fd545c5c628c1d07b18357637d20b9c7c55c5",
+    "task_count": 1,
+    "task_family": "livecodebench",
+    "task_index": 0,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "5b0829a03ffde12e927e45f794ad164f4eb61b05cdb75204aa4a1b9e5cd955dc"
+    }
+  ],
+  "run_id": "20260216_145914",
+  "seed": 61,
+  "task_id": "hard2_complex_transform"
+}

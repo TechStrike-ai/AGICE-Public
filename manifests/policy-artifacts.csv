@@ -1,0 +1,4 @@
+artifact,relpath,sha256
+governance_policy.v1.0.1.yaml,policies/governance_policy.v1.0.1.yaml,762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9
+verifier_pack.v1.0.1.yaml,policies/verifier_pack.v1.0.1.yaml,720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6
+decision_function.v1.0.1.md,policies/decision_function.v1.0.1.md,6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb

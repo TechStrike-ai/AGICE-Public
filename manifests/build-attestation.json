@@ -1,0 +1,27 @@
+{
+  "attestation_id": "agice-zenodo-pack-attestation-v1.0.1",
+  "bundle_version": "1.0.1",
+  "created_utc": "2026-02-16T20:15:24.526343+00:00",
+  "dirty_tree_provenance": {
+    "meta_path": "manifests/dirty-tree-meta.json",
+    "meta_sha256": "a53c58fe81d7e0e2daf4a2ffae84660435ebd09c222ac80ce57aaae124f37a80",
+    "tracked_diff_path": "manifests/dirty-tree-tracked.diff",
+    "tracked_diff_sha256": "9d07ca8a2b12ee52811384bf54fdaa5ab1986d5b135a8531a33708174c089804"
+  },
+  "doi": "10.5281/zenodo.18662294",
+  "repository": {
+    "dirty_tree": true,
+    "git_commit": "733ca495383f79ee352e796409694189f1a8182c",
+    "url": "https://github.com/TechStrike-ai/AGICE-Public"
+  },
+  "sha256sums": {
+    "binding": "SHA256SUMS.txt content is cryptographically bound by detached signature and public key verification.",
+    "path": "checksums/SHA256SUMS.txt",
+    "signature_algorithm": "RSA-SHA256",
+    "signature_path": "checksums/SHA256SUMS.sig"
+  },
+  "signer": {
+    "public_key_fingerprint_sha256_der": "dc6236af0b588998315ae8f74acd79fe25a00ed91ce3748a098b43f933287fbe",
+    "public_key_path": "checksums/SIGNING-PUBLIC-KEY.pem"
+  }
+}

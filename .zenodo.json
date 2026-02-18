@@ -1,0 +1,34 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "El-Mohammady, Ahmed"
+    }
+  ],
+  "description": "<p>AGICE demo replay evidence bundle with 39 runs and 39 hash-chained evidence bundles. Includes signed SHA-256 manifests, governance policy artifacts, rollback/escalation case studies, and offline verification tooling.</p>",
+  "doi": "10.5281/zenodo.18662294",
+  "keywords": [
+    "AGICE",
+    "evidence bundle",
+    "ablation",
+    "reproducibility",
+    "hash chain",
+    "offline verification",
+    "governance",
+    "rollback",
+    "auditability"
+  ],
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/TechStrike-ai/AGICE-Public",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "title": "AGICE Demo Replay — Evidence Bundle",
+  "upload_type": "dataset",
+  "version": "1.0.1"
+}

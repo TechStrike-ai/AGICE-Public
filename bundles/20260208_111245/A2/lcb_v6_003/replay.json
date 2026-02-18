@@ -1,0 +1,13 @@
+{
+  "bundle_dir": ".",
+  "deterministic_flags": {
+    "PYTHONHASHSEED": "0"
+  },
+  "generator_id": "o3",
+  "instructions": [
+    "Re-run verifiers using recorded seeds and environment hashes.",
+    "Compare verifier outputs and arbitration decisions.",
+    "Verify events.jsonl hash chain integrity."
+  ],
+  "seed": 42
+}

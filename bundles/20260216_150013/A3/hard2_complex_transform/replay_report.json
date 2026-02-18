@@ -1,0 +1,30 @@
+{
+  "bundle_dir": ".",
+  "bundle_id": "d8ef22fa-d7a4-49d5-aef4-8e1d317d9c2f",
+  "checks": {
+    "chain_tip_match": true,
+    "events_file_hash": {
+      "actual": "cc6738f37207007920d09bddc9a0d26ecc28dac03121c69008c573b2ff53a37c",
+      "match": true,
+      "recorded": "cc6738f37207007920d09bddc9a0d26ecc28dac03121c69008c573b2ff53a37c"
+    },
+    "hash_chain": {
+      "count": 14,
+      "tip": "d911c74d19d1b94c2686adbb67aa4e7cfca9cac485e48014d7ebccd0e65ab8cd",
+      "valid": true
+    },
+    "verifier_replay": {
+      "attempted": true,
+      "error": "Slice manifest not found: cache/livecodebench/slices/a1fail_only_hard2_complex_transform.json. Populate it from LiveCodeBench v6 data.",
+      "repo_root": ".",
+      "rounds": [],
+      "slice_id": "a1fail_only_hard2_complex_transform",
+      "slice_path": "cache/livecodebench/slices/a1fail_only_hard2_complex_transform.json",
+      "slice_sha256_actual": null,
+      "slice_sha256_expected": "b2cd6ca44ba7ab5146af3f67e90fd545c5c628c1d07b18357637d20b9c7c55c5",
+      "slice_sha256_match": null
+    }
+  },
+  "status": "PASS",
+  "task_id": "hard2_complex_transform"
+}

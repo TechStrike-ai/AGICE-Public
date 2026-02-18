@@ -1,0 +1,73 @@
+{
+  "bundle_id": "8fee7d44-b4ea-4a43-90be-547e78fc094e",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "final_decision": {
+    "code": "def checkValidString(s):\n    left = 0\n    star = 0\n    for char in s:\n        if char == '(':  \n            left += 1\n        elif char == ')':\n            if left > 0:\n                left -= 1\n            else:\n                if star > 0:\n                    star -= 1\n                else:\n                    return False\n        else:\n            star += 1\n    return left <= star\n\nif __name__ == '__main__':\n    import sys\n    input = sys.stdin.read\n    s = input().strip()\n    print(checkValidString(s))",
+    "loss": 0.16666666666666666,
+    "projection_id": "base",
+    "round": 0,
+    "solved": false
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+    "events_count": 12,
+    "events_hash_chain_tip": "262bb86ed673ea6ad10af3233f4be21e4d664acd031aecde91f93f9644b8286d",
+    "policy_id": "agice-governance-v1.0.1",
+    "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+    "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+  },
+  "provenance": {
+    "config_path": "configs/drop2_sweetspot_tight.yaml",
+    "config_sha256": "3834d61d300f39a112cf51a4da62459c134488e4715dbbf51e2db5a93301665c",
+    "evaluated_task_ids": [
+      "ss_004"
+    ],
+    "model": "gpt-4o-mini",
+    "policy_binding": {
+      "decision_function_path": "policies/decision_function.v1.0.1.md",
+      "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+      "policy_id": "agice-governance-v1.0.1",
+      "policy_path": "policies/governance_policy.v1.0.1.yaml",
+      "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+      "verifier_pack_path": "policies/verifier_pack.v1.0.1.yaml",
+      "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+    },
+    "reasoning_effort": "",
+    "run_id": "20260216_145947",
+    "seed_base": 51,
+    "slice_id": "a1fail_only_ss_004",
+    "slice_sha256": "d582a313715548f97825c0c2d039c374a664e1e75b24515a3be95fbf9efab87f",
+    "task_count": 1,
+    "task_family": "livecodebench",
+    "task_index": 0,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 0.16666666666666666,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "e5325aa80efdbeb91cde8ea46ab0a6efe716f257cd0175de943161f78bdb3ca3"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.16666666666666666,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "bbe37c2b9bf6766adb503ea327717647ee82a5e56eab4304130aa09360bf29c5"
+    }
+  ],
+  "run_id": "20260216_145947",
+  "seed": 51,
+  "task_id": "ss_004"
+}

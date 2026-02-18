@@ -1,0 +1,12 @@
+{
+  "bundle_count": 39,
+  "bundle_root": ".",
+  "bundle_validation_passed": 39,
+  "bundle_validation_total": 39,
+  "bundle_version": "1.0.1",
+  "case_id": "AGICE Demo Replay",
+  "doi": "10.5281/zenodo.18662294",
+  "generated_utc": "2026-02-16T20:46:00+00:00",
+  "repo_url": "https://github.com/TechStrike-ai/AGICE-Public",
+  "run_count": 39
+}

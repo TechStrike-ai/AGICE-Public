@@ -1,0 +1,65 @@
+{
+  "bundle_id": "42ac486e-a798-423a-9a4b-f02d59147787",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "final_decision": {
+    "code": "import sys\ninput = sys.stdin.readline\n\ndef transform_point(x, y, ops):\n    for op in ops:\n        if op == 'R':  # Rotate 90° counter-clockwise\n            x, y = -y, x\n        elif op == 'H':  # Rotate 180°\n            x, y = -x, -y\n        elif op == 'D':  # Rotate 90° clockwise\n            x, y = y, -x\n        elif op == 'X':  # Reflect across the x-axis\n            y = -y\n    return x, y\n\ndef solve():\n    parts = input().split()\n    n = int(parts[0])\n    ops = parts[1] if len(parts) > 1 else \"\"\n    out = []\n    for _ in range(n):\n        x, y = map(int, input().split())\n        x, y = transform_point(x, y, ops)\n        out.append(f\"{x} {y}\")\n    print('\\n'.join(out))\n\nsolve()",
+    "loss": 0.0,
+    "projection_id": "minus_i",
+    "round": 1,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+    "events_count": 14,
+    "events_hash_chain_tip": "cf52bb3bba58eb5b3154e095035a70137972acc3af8ba4485d2b32a66cb2b027",
+    "policy_id": "agice-governance-v1.0.1",
+    "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+    "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+  },
+  "provenance": {
+    "config_path": "configs/drop2_sweetspot_tight.yaml",
+    "config_sha256": "3834d61d300f39a112cf51a4da62459c134488e4715dbbf51e2db5a93301665c",
+    "evaluated_task_ids": [
+      "hard2_complex_transform"
+    ],
+    "model": "gpt-4o-mini",
+    "policy_binding": {
+      "decision_function_path": "policies/decision_function.v1.0.1.md",
+      "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+      "policy_id": "agice-governance-v1.0.1",
+      "policy_path": "policies/governance_policy.v1.0.1.yaml",
+      "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+      "verifier_pack_path": "policies/verifier_pack.v1.0.1.yaml",
+      "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+    },
+    "reasoning_effort": "",
+    "run_id": "20260216_145630",
+    "seed_base": 60,
+    "slice_id": "a1fail_only_hard2_complex_transform",
+    "slice_sha256": "b2cd6ca44ba7ab5146af3f67e90fd545c5c628c1d07b18357637d20b9c7c55c5",
+    "task_count": 1,
+    "task_family": "livecodebench",
+    "task_index": 0,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "minus_i",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "c5f4d36a890727d57fc1a388afb137711e17f84eea5c15c3f45dae16bcf7d04f"
+    }
+  ],
+  "run_id": "20260216_145630",
+  "seed": 60,
+  "task_id": "hard2_complex_transform"
+}

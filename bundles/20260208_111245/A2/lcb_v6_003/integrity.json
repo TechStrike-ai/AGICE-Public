@@ -1,0 +1,18 @@
+{
+  "bundle_id": "c479eeac-dc63-4a71-aa13-da948085b896",
+  "content_hash": "094111610e6b326c8e69d460277bc30b98deb1b446018aaf145d375b1cf06d9d",
+  "files": {
+    "bundle_manifest.json": "29cb6ccebc1506a76ccd618f23a04cf2320b49cb74782d954b132ca3383997ef",
+    "events.jsonl": "706605769abcac58ed733424251bf0a6d60e95240e81fbe4853774da1f9d0910"
+  },
+  "log_anchor": null,
+  "policy_binding": {
+    "decision_function_sha256": "6d5a7f4164ad4e907c35e7e5a4e3afccc3f0c42d21a4e11262bcd2f62644b5cb",
+    "policy_id": "agice-governance-v1.0.1",
+    "policy_sha256": "762406f7628a71584aace398e8387c5ad11a1e8603a0edcc824f46c7eacbeaf9",
+    "verifier_pack_sha256": "720a4a0b3e5dcf6f3ad235abf63d748b59efacaaeca9f249e74ce325966a76b6"
+  },
+  "run_id": "local",
+  "signature": null,
+  "task_id": "lcb_v6_003"
+}

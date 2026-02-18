@@ -1,0 +1,30 @@
+{
+  "bundle_dir": ".",
+  "bundle_id": "6446a1ea-ce60-4e62-9b30-8ceb4cd55ea8",
+  "checks": {
+    "chain_tip_match": true,
+    "events_file_hash": {
+      "actual": "c8dc0d06a1fb441885979deb5b7c5a7b4ca1653b13bb8c2333b8eea1ab7fe646",
+      "match": true,
+      "recorded": "c8dc0d06a1fb441885979deb5b7c5a7b4ca1653b13bb8c2333b8eea1ab7fe646"
+    },
+    "hash_chain": {
+      "count": 13,
+      "tip": "2a6f849b912571c410db2448cce54d9f39ed493e1619f36c39377b101719b30f",
+      "valid": true
+    },
+    "verifier_replay": {
+      "attempted": true,
+      "error": "Slice manifest not found: cache/livecodebench/slices/a1fail_only_ss_004.json. Populate it from LiveCodeBench v6 data.",
+      "repo_root": ".",
+      "rounds": [],
+      "slice_id": "a1fail_only_ss_004",
+      "slice_path": "cache/livecodebench/slices/a1fail_only_ss_004.json",
+      "slice_sha256_actual": null,
+      "slice_sha256_expected": "d582a313715548f97825c0c2d039c374a664e1e75b24515a3be95fbf9efab87f",
+      "slice_sha256_match": null
+    }
+  },
+  "status": "PASS",
+  "task_id": "ss_004"
+}

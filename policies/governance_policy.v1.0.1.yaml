@@ -1,0 +1,108 @@
+policy_id: "agice-governance-v1.0.1"
+policy_version: "1.0.1"
+mode: "mission_critical"
+created_utc: "2026-02-16T00:00:00Z"
+
+evidence:
+  require_signed_release: true
+  require_bundle_integrity: true
+  require_event_hash_chain: true
+  require_replay_descriptor: true
+  require_policy_hash_in_bundle: true
+  require_code_provenance:
+    git_commit_required: true
+    dirty_tree_allowed: false
+    dependency_lock_hash_required: true
+  signing:
+    algorithm: "RSA-SHA256"
+    require_sha256sums_sig: true
+    key_rotation_days: 90
+    include_public_key_fingerprint: true
+
+verifier_pack:
+  pack_id: "agice-verifiers-pack"
+  pack_version: "p1"
+  hard_oracles:
+    - id: "V_schema"
+    - id: "V_replay"
+    - id: "V_safety_policy"
+    - id: "V_tests"
+  soft_oracles:
+    - id: "S_quality"
+    - id: "S_cost"
+    - id: "S_delta"
+  hard_fail_is_terminal: true
+
+acceptance:
+  require_all_hard_pass: true
+  soft_score:
+    formula: "weighted_sum"
+    weights:
+      S_quality: 0.45
+      S_delta: 0.25
+      S_cost: 0.15
+      S_reliability: 0.15
+  tiebreakers:
+    - "min_hard_warnings"
+    - "min_patch_size"
+    - "min_runtime"
+    - "deterministic_lex_order"
+  confidence_envelope:
+    metric: "composite_confidence"
+    min_to_advance: 0.80
+    min_margin_over_incumbent: 0.05
+    require_two_consecutive_passes: false
+
+rollback:
+  enabled: true
+  triggers:
+    - id: "hard_regression"
+      condition: "incumbent_hard_pass == true AND candidate_hard_pass == false"
+      action: "rollback_to_last_known_good"
+    - id: "confidence_collapse"
+      condition: "accepted_candidate_confidence < 0.75"
+      action: "rollback_to_last_known_good"
+    - id: "rolling_window_regression"
+      condition: "rolling_window_hard_pass_rate < 0.90"
+      window_rounds: 5
+      action: "rollback_to_last_known_good"
+    - id: "flakiness_detected"
+      condition: "replay_variance > 0.0"
+      action: "freeze_and_escalate"
+  post_rollback:
+    freeze_new_advancement_rounds: 1
+    increase_verifier_strictness: true
+    strictness_multiplier: 1.15
+    max_rollback_count: 3
+    on_exceed_max: "freeze_and_escalate"
+
+escalation:
+  enabled: true
+  conditions:
+    - id: "repeated_rollbacks"
+      condition: "rollback_count >= 2"
+      action: "require_human_approval"
+    - id: "policy_violation_attempt"
+      condition: "V_safety_policy == FAIL"
+      action: "block_and_alert"
+  approvals:
+    record_operator_id: true
+    record_reason: true
+    sign_approval_record: true
+
+audit_logging:
+  required_events:
+    - "hint_packet"
+    - "candidate_generated"
+    - "oracle_evaluations"
+    - "arbitration_decision"
+    - "incumbent_update"
+    - "rollback_event"
+    - "escalation_event"
+    - "finalization"
+  include_hashes_in_events:
+    - "policy_sha256"
+    - "bundle_manifest_sha256"
+    - "events_jsonl_sha256"
+    - "integrity_json_sha256"
+    - "replay_json_sha256"

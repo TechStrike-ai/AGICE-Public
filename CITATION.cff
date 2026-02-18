@@ -1,15 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
-title: "AGICE: Evidence-Native Verifier-Driven Convergence (Public Release)"
+message: "If you use this software, please cite it as below."
+title: "AGICE Demo Replay"
 type: software
+doi: "10.5281/zenodo.18662294"
+url: "https://github.com/TechStrike-ai/AGICE-Public"
+repository-code: "https://github.com/TechStrike-ai/AGICE-Public"
+license: "CC-BY-4.0 AND MIT"
 authors:
-  - family-names: El Mohammady
-    given-names: Ahmed
-repository-code: "https://github.com/TechStrike/AGICE-Public"
-url: "https://techstrike.io/"
-abstract: "AGICE couples a generator (LLM) with verifier packs and evidence-native convergence to produce verified artifacts with audit-grade replayable evidence bundles."
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.18608886"
-    description: "AGICE Evidence Pack v1 (Zenodo DOI)"
-license: "TBD"
+  - family-names: "El Mohammady"
+    given-names: "Ahmed"
