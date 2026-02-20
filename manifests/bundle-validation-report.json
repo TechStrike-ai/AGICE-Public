@@ -1,1021 +1,1177 @@
 {
   "pass_rate": 1.0,
-  "passed": 39,
+  "passed": 45,
   "results": [
     {
-      "bundle_dir": "bundles/20260216_145600/A1/ss_004",
-      "bundle_id": "27475a08-71a6-4dd2-a775-9c34c25d852b",
+      "bundle_dir": "bundles/20260220_095005/seed42/A1/hard2_angular_sort",
+      "bundle_id": "e6c30a0a-b79f-4888-ba7c-7bef90a2bb17",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "e59d32070014ee52c47350240f2ecd0d196dcd2af10d32cc8317c7e3ad786c91",
+          "count": 120,
+          "tip": "a878857fc760b5b3fcb51593a750b7a1c296052b12d45f6f75ed51c4ce17cbb6",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "35edfa452e61c70d3e5e379d9191f8931eb539f94eb842d18765826f0b425fb1",
-            "events.jsonl": "411d203ce3a11523c69b9a507b751c403abee832aa0000e3abd5d9ba081bf67f"
+            "bundle_manifest.json": "2a695bcaa63235e9b2d8457029ef3b3ae3b500eec322e89d0f7a590c65167f6a",
+            "events.jsonl": "d5a044a0d6d078394a4e67034248a1aaf389f03491882ef208044757135fb7a2"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "35edfa452e61c70d3e5e379d9191f8931eb539f94eb842d18765826f0b425fb1",
-            "events.jsonl": "411d203ce3a11523c69b9a507b751c403abee832aa0000e3abd5d9ba081bf67f"
+            "bundle_manifest.json": "2a695bcaa63235e9b2d8457029ef3b3ae3b500eec322e89d0f7a590c65167f6a",
+            "events.jsonl": "d5a044a0d6d078394a4e67034248a1aaf389f03491882ef208044757135fb7a2"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145600/A2/ss_004",
-      "bundle_id": "ac8b8b0f-9a16-4a6f-9486-ebd10dce429d",
+      "bundle_dir": "bundles/20260220_095005/seed42/A1/ss_010",
+      "bundle_id": "6dcd17a2-b145-4643-8abe-1dc3bd84b6ea",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "58d8cbac802ac31257162fd4b4de0aad2c155d4ae98cd5c2424824748154291f",
+          "count": 142,
+          "tip": "c9355d9417fd41ed106689fb8bcd1fcbc6bee03bfc2332e70297e0adc7695206",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "081bc1b896518e3d65a362919a8ebc25b2be5d8cda0bc7ed9a3d9f16a0125797",
-            "events.jsonl": "e6af6f438cfcfab0d73c308e94ae7926ba6ca6ecb35c67273e2a1b7087f5c332"
+            "bundle_manifest.json": "1fb1612ef9e806049ddf199a6f520efe6b328726f1b486953b16cef2b3c0a709",
+            "events.jsonl": "486f8533458e15cdafe4d4f6f58c6edf4b7840848b13789fc89272bd7bbde108"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "081bc1b896518e3d65a362919a8ebc25b2be5d8cda0bc7ed9a3d9f16a0125797",
-            "events.jsonl": "e6af6f438cfcfab0d73c308e94ae7926ba6ca6ecb35c67273e2a1b7087f5c332"
+            "bundle_manifest.json": "1fb1612ef9e806049ddf199a6f520efe6b328726f1b486953b16cef2b3c0a709",
+            "events.jsonl": "486f8533458e15cdafe4d4f6f58c6edf4b7840848b13789fc89272bd7bbde108"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145600/A3/ss_004",
-      "bundle_id": "d6a2a76f-55cf-4d26-804a-1505b9ee75a0",
+      "bundle_dir": "bundles/20260220_095005/seed42/A1/ss_007",
+      "bundle_id": "319c74dd-225a-4766-8323-b33a626b2854",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "6cf399ac0907c4d42ad28a34a35fdefd6135b8586559d18a14062621b333e2dd",
+          "count": 148,
+          "tip": "0763cb0f30e7d15ed89f1cd9e109965932ed6713d7d6dd992b2477a532fb6d7d",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "41dc7dfbd4c73635b4c759ee126c12ed811560f440c63b26241dbe79c6a8a369",
-            "events.jsonl": "622a3a0119cb23475e4c36fe5bf7855b0a66a77451399e3a2115764e7481e378"
+            "bundle_manifest.json": "17c53fd74b8e6f4dcac97a0d39180488e0100eed8ea8c5aadcad9389bcab2a1f",
+            "events.jsonl": "439f942232ab9b221094f8ba2cc84a969841956d54d9a58da5ffcda218bf2f0f"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "41dc7dfbd4c73635b4c759ee126c12ed811560f440c63b26241dbe79c6a8a369",
-            "events.jsonl": "622a3a0119cb23475e4c36fe5bf7855b0a66a77451399e3a2115764e7481e378"
+            "bundle_manifest.json": "17c53fd74b8e6f4dcac97a0d39180488e0100eed8ea8c5aadcad9389bcab2a1f",
+            "events.jsonl": "439f942232ab9b221094f8ba2cc84a969841956d54d9a58da5ffcda218bf2f0f"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145812/A1/ss_004",
-      "bundle_id": "56dc6f93-e0f7-40f6-9340-3db08d819f5a",
+      "bundle_dir": "bundles/20260220_095005/seed42/A1/adjacent_hanoi",
+      "bundle_id": "cbc7b08c-2bbd-4973-8ce5-eee7e3f5b538",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "dd4e39a0487749ea628737881145adf6dabc300cef4e2c0fed6d42418ce41a37",
+          "count": 145,
+          "tip": "b552dd62209b088774bc4b9b7abb4f949a1e440519573cf61a59e1866d741813",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "3c460950e68b2d6473a264a839fabb039c10a9997d57756016146a52e555d329",
-            "events.jsonl": "b275fb9d89f7c398f9b0e236f9ee200c5040646d37805c98d71f7a2d7d8c754f"
+            "bundle_manifest.json": "e21daa334385b3822b80f2a5b59768151c62f59238aecc26d94a968418ca9743",
+            "events.jsonl": "863c8c77469f8a5431110feb8e076a8d6f71025110a22c02a0d8e9d3ad5c7826"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "3c460950e68b2d6473a264a839fabb039c10a9997d57756016146a52e555d329",
-            "events.jsonl": "b275fb9d89f7c398f9b0e236f9ee200c5040646d37805c98d71f7a2d7d8c754f"
+            "bundle_manifest.json": "e21daa334385b3822b80f2a5b59768151c62f59238aecc26d94a968418ca9743",
+            "events.jsonl": "863c8c77469f8a5431110feb8e076a8d6f71025110a22c02a0d8e9d3ad5c7826"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_145812/A2/ss_004",
-      "bundle_id": "053a967f-de4e-4a58-9ab5-c9b6e5bf7143",
+      "bundle_dir": "bundles/20260220_095005/seed42/A1/wildcard_match",
+      "bundle_id": "67e691b7-c432-48ac-ae74-ff55edf8f172",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "a4507a190393efe45f253f749dfd306bf4256092954cc1a14412654f075f3aec",
+          "count": 148,
+          "tip": "3de4db33fc36ff0faf0d12922dc61a0fbe85eb899e479895ccc7e8c0d2b2de5f",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "fa0c20aee3d03883a5ec62aacd2dd3b8ad2cab96ab4ac06d57a30d2c25a131c5",
-            "events.jsonl": "9bc533e011837f2fe5a4e0f31f05863350829fa0f8434d3dcfbdc177f1e4f8e7"
+            "bundle_manifest.json": "fc7a7129941f95821dc5851a77f33aa52d7064f4f11667ed196231cf779e1a7a",
+            "events.jsonl": "f4e3eb8359a694bf300eed50e50302905537460118e7f4fd2d791348d2b2d815"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "fa0c20aee3d03883a5ec62aacd2dd3b8ad2cab96ab4ac06d57a30d2c25a131c5",
-            "events.jsonl": "9bc533e011837f2fe5a4e0f31f05863350829fa0f8434d3dcfbdc177f1e4f8e7"
+            "bundle_manifest.json": "fc7a7129941f95821dc5851a77f33aa52d7064f4f11667ed196231cf779e1a7a",
+            "events.jsonl": "f4e3eb8359a694bf300eed50e50302905537460118e7f4fd2d791348d2b2d815"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_145812/A3/ss_004",
-      "bundle_id": "955e5cf6-d7c0-4949-ac60-d4171e94914c",
+      "bundle_dir": "bundles/20260220_095005/seed42/A2/hard2_angular_sort",
+      "bundle_id": "4f8f79d2-cc49-4e49-94ac-c8ada07f7fa6",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "830b730d38cb80fe71ca97768edebdb98dc8a33c0a0315bfccbcf9e4fdbd8a1e",
+          "count": 122,
+          "tip": "e2065c95943dc5008485175de55543fe7e66a47cd86242718e9b856901914dfa",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "08964ac5208024ff1a595407bf12970ae0d33f9e5a9f52cbc5756fe6ce44a74e",
-            "events.jsonl": "e9b00032d381bf95c01113152825b0665672d0164f9aa55074c9d6787906fe5c"
+            "bundle_manifest.json": "b692ab718eb87e67670b3b5dd8a23626543a23ea2db9179b25ea4a17ffa51454",
+            "events.jsonl": "2eaff6210fd0575b02c5bcecc3a9542bd18bca272fbb9fe94db0a51f49e8c55c"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "08964ac5208024ff1a595407bf12970ae0d33f9e5a9f52cbc5756fe6ce44a74e",
-            "events.jsonl": "e9b00032d381bf95c01113152825b0665672d0164f9aa55074c9d6787906fe5c"
+            "bundle_manifest.json": "b692ab718eb87e67670b3b5dd8a23626543a23ea2db9179b25ea4a17ffa51454",
+            "events.jsonl": "2eaff6210fd0575b02c5bcecc3a9542bd18bca272fbb9fe94db0a51f49e8c55c"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145940/A1/ss_004",
-      "bundle_id": "cc7c16a2-5c89-43a1-8975-e3945d164e88",
+      "bundle_dir": "bundles/20260220_095005/seed42/A2/ss_010",
+      "bundle_id": "12cd200f-bbcf-4d17-9b0a-88be46e9e191",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "374d9157d65d55576b9bac1aa67ea27cd6726ad7ff2a19d83de69d63f45333c8",
+          "count": 143,
+          "tip": "72d93aaa50e6845d9ebd3135e44a83bff2a4d42b4217ce34e71299e2f5b557d0",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "fa2a91bb9a1b121200ed2c98ac0ebc6bca71e959e8b646ad99992de1dbeddf34",
-            "events.jsonl": "0310dfc88b33157fc6a45007adaebd35c5f898056181c0537824aaf03d3b8e8a"
+            "bundle_manifest.json": "7af081c1c60771bf2ab2a1b82c68f6e12131d193f779bc27e61ee68713726b6a",
+            "events.jsonl": "b6f4fa6b7b938f505c38df180cb31cfa947759521445fb14c7dbdee3ca4b7de0"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "fa2a91bb9a1b121200ed2c98ac0ebc6bca71e959e8b646ad99992de1dbeddf34",
-            "events.jsonl": "0310dfc88b33157fc6a45007adaebd35c5f898056181c0537824aaf03d3b8e8a"
+            "bundle_manifest.json": "7af081c1c60771bf2ab2a1b82c68f6e12131d193f779bc27e61ee68713726b6a",
+            "events.jsonl": "b6f4fa6b7b938f505c38df180cb31cfa947759521445fb14c7dbdee3ca4b7de0"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145940/A2/ss_004",
-      "bundle_id": "9f0b4058-7ec7-407b-a240-3f9a1619f829",
+      "bundle_dir": "bundles/20260220_095005/seed42/A2/ss_007",
+      "bundle_id": "a0a21b0e-daf9-4f44-aa09-11c5b7383f89",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "e616e94f4b9a2b9174c3040b326f784baf24ac5f696d19e6e6c68b3799c91837",
+          "count": 152,
+          "tip": "8c6a32970606989bc586fbe37dda63e1d76f87541997c4c8f661f418d22744e2",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "42710ceb7dace9f4fb1c92136c27ce867fcb3a409211bdd1e06c8ce2b1e0905d",
-            "events.jsonl": "c72af3ced1099c21284245eabdc83205f7274d2a75ac3edae0c4f2bda0404000"
+            "bundle_manifest.json": "5795778e3f01f2acc821a72a67794918f7f1f10a84d90bca28fe1c41b484f58a",
+            "events.jsonl": "6a9e237b98eee4da2382293ea5e636ec6a867303200299e407472292efb3309b"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "42710ceb7dace9f4fb1c92136c27ce867fcb3a409211bdd1e06c8ce2b1e0905d",
-            "events.jsonl": "c72af3ced1099c21284245eabdc83205f7274d2a75ac3edae0c4f2bda0404000"
+            "bundle_manifest.json": "5795778e3f01f2acc821a72a67794918f7f1f10a84d90bca28fe1c41b484f58a",
+            "events.jsonl": "6a9e237b98eee4da2382293ea5e636ec6a867303200299e407472292efb3309b"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145940/A3/ss_004",
-      "bundle_id": "aee91631-501d-4ab0-b007-0bc9e9d87d88",
+      "bundle_dir": "bundles/20260220_095005/seed42/A2/adjacent_hanoi",
+      "bundle_id": "cf3213f3-78b9-4402-9efa-aceb04dc5132",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "e0369936babf2786a975ed4694589137c6781d224ddc2adaaf9da809599fccbd",
+          "count": 148,
+          "tip": "83edd2947a41df32ce061e62482aa18c21125e8416e60fd1d34593a32240a5c4",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "9343b7c3d8213d644c0c4840b62a882c1645634c344ccd140a861098fdad6f48",
-            "events.jsonl": "49235a58bee6c831dde176fe948e4b1e3e13a63b15f3412e0e0128fd8d65c730"
+            "bundle_manifest.json": "948c6c0f4a5b57a92c1ddcd17bb0df7777dc3126c1ff8fa76850eb0f565f71f6",
+            "events.jsonl": "b5bac3eca68017e3d2e1cc79b953d144e2adf6df29012c5c871287a2cc24249f"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "9343b7c3d8213d644c0c4840b62a882c1645634c344ccd140a861098fdad6f48",
-            "events.jsonl": "49235a58bee6c831dde176fe948e4b1e3e13a63b15f3412e0e0128fd8d65c730"
+            "bundle_manifest.json": "948c6c0f4a5b57a92c1ddcd17bb0df7777dc3126c1ff8fa76850eb0f565f71f6",
+            "events.jsonl": "b5bac3eca68017e3d2e1cc79b953d144e2adf6df29012c5c871287a2cc24249f"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_145606/A1/ss_004",
-      "bundle_id": "4ce3c8b0-3a4d-4ae5-842e-0fd5279e7fe3",
+      "bundle_dir": "bundles/20260220_095005/seed42/A2/wildcard_match",
+      "bundle_id": "71ee2990-a55d-4ffd-965d-aa5ebaedca8c",
       "checks": {
         "hash_chain": {
-          "count": 12,
-          "tip": "8c47ff90e786edacbd2eecc7e03996a52381e6a3801f8556a977814bbf95218d",
+          "count": 152,
+          "tip": "169816e5b3a02f85f163fde5e70c5e635381987a6a4f9e23999bbf25575757ed",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "16bdbb77ef1eb7665a6931c088e7ed58859b4d673d73246ecce0252c768ea577",
-            "events.jsonl": "d4db52f8b6ed2652e4f599fa0be1e5995107d945d36eeca05014b50e52be5e53"
+            "bundle_manifest.json": "1a4712eac151a1da1ef24f20bdf0d4eb16d71a7e5a09ddbf3be68fa822a0421b",
+            "events.jsonl": "c56429aa858c4fa1ce69ddc58994d6789d271118ae0f9e2cefb698c909fa7529"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "16bdbb77ef1eb7665a6931c088e7ed58859b4d673d73246ecce0252c768ea577",
-            "events.jsonl": "d4db52f8b6ed2652e4f599fa0be1e5995107d945d36eeca05014b50e52be5e53"
+            "bundle_manifest.json": "1a4712eac151a1da1ef24f20bdf0d4eb16d71a7e5a09ddbf3be68fa822a0421b",
+            "events.jsonl": "c56429aa858c4fa1ce69ddc58994d6789d271118ae0f9e2cefb698c909fa7529"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_145606/A2/ss_004",
-      "bundle_id": "6446a1ea-ce60-4e62-9b30-8ceb4cd55ea8",
+      "bundle_dir": "bundles/20260220_095005/seed42/A3/hard2_angular_sort",
+      "bundle_id": "6ded3fb8-b112-4705-8e1b-4e097c23a651",
       "checks": {
         "hash_chain": {
-          "count": 13,
-          "tip": "2a6f849b912571c410db2448cce54d9f39ed493e1619f36c39377b101719b30f",
+          "count": 133,
+          "tip": "da14fb7a9f1c53b6dc3c309003edc7cc1d3224b2aad1cb43a69847cd5876c576",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "144c5c52620bc4674c7eb3635b4319e7f0a4fe344bb0884ecdb2b025cfa0e90e",
-            "events.jsonl": "49da3e7d81630fd43f080db6402024782f0f80aad5202d8768d0fe0f996e5cd8"
+            "bundle_manifest.json": "2a6590b7c5bb855903cd82e5dd95af7c757b8d4100dabce9ba4ccf9f6f381230",
+            "events.jsonl": "226a2701d6af6e17f861924b4a68c502bc043f643b99fe1c84c754e5744b90ad"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "144c5c52620bc4674c7eb3635b4319e7f0a4fe344bb0884ecdb2b025cfa0e90e",
-            "events.jsonl": "49da3e7d81630fd43f080db6402024782f0f80aad5202d8768d0fe0f996e5cd8"
+            "bundle_manifest.json": "2a6590b7c5bb855903cd82e5dd95af7c757b8d4100dabce9ba4ccf9f6f381230",
+            "events.jsonl": "226a2701d6af6e17f861924b4a68c502bc043f643b99fe1c84c754e5744b90ad"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145606/A3/ss_004",
-      "bundle_id": "d00ccfc1-6179-48b2-90a3-85e920c0dc74",
+      "bundle_dir": "bundles/20260220_095005/seed42/A3/ss_010",
+      "bundle_id": "29f749b9-8b4d-4fdc-91f3-b3550a400611",
       "checks": {
         "hash_chain": {
-          "count": 19,
-          "tip": "2f25f27121a24b291bc3eeab4516116ffe0cba6472947a4d71030e5092e4d3bc",
+          "count": 159,
+          "tip": "39b6e067118d48124425cf58eb19219ccc8a74566ef96784480bf72f84f0b71b",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "9fc8bdff7d03cd361639366ad3b00eb136b2f7b253c7d6299455cede0dc46564",
-            "events.jsonl": "ed892818e5bdece346e9f0719dbd131d7f16bb2d8118c86ced83e73aa652230d"
+            "bundle_manifest.json": "576958c26613b277038f593f00f49d089b77a0dc99e42b2208e22f743ee1c843",
+            "events.jsonl": "e01aa484241905646b1981f51174560083bdfcc9e7916db0f7eed04639bba896"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "9fc8bdff7d03cd361639366ad3b00eb136b2f7b253c7d6299455cede0dc46564",
-            "events.jsonl": "ed892818e5bdece346e9f0719dbd131d7f16bb2d8118c86ced83e73aa652230d"
+            "bundle_manifest.json": "576958c26613b277038f593f00f49d089b77a0dc99e42b2208e22f743ee1c843",
+            "events.jsonl": "e01aa484241905646b1981f51174560083bdfcc9e7916db0f7eed04639bba896"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145819/A1/ss_004",
-      "bundle_id": "e41602a6-2964-47a2-8f3a-d9b625a2e4d8",
+      "bundle_dir": "bundles/20260220_095005/seed42/A3/ss_007",
+      "bundle_id": "ac687b44-2cf4-4479-8455-82a470cf84d7",
       "checks": {
         "hash_chain": {
-          "count": 12,
-          "tip": "4ce14a86fc7b39e9a8526ca1a92cf2f4582d46166f35118d7f8f1e13d7651aad",
+          "count": 165,
+          "tip": "ac78c4ed78579cde3b658e21de1477656d275142dc58b6396f4d38732d39bbf2",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "0644dd1b7f11900526954cfe4b09ab4dbae0c6b41b7fd377f4427edfa7a98bea",
-            "events.jsonl": "df8ecbe80bfee6992ec38d04ebbd7f7e9c209a258b50f589b97acb812f669590"
+            "bundle_manifest.json": "de82c41883a51e4a32656e0f08cf247110e8456b2edeabce8a0735f493334800",
+            "events.jsonl": "f8ee549499f083608fe693691f3c80695f0ba0b32b03425f0a2414e0f5f43385"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "0644dd1b7f11900526954cfe4b09ab4dbae0c6b41b7fd377f4427edfa7a98bea",
-            "events.jsonl": "df8ecbe80bfee6992ec38d04ebbd7f7e9c209a258b50f589b97acb812f669590"
+            "bundle_manifest.json": "de82c41883a51e4a32656e0f08cf247110e8456b2edeabce8a0735f493334800",
+            "events.jsonl": "f8ee549499f083608fe693691f3c80695f0ba0b32b03425f0a2414e0f5f43385"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145819/A2/ss_004",
-      "bundle_id": "2d537b2d-cc49-480e-afbc-35a2eb3c1ef2",
+      "bundle_dir": "bundles/20260220_095005/seed42/A3/adjacent_hanoi",
+      "bundle_id": "fa3749be-71ec-41fd-9ac8-50bf3a7f5daf",
       "checks": {
         "hash_chain": {
-          "count": 13,
-          "tip": "072ca649fb2b5561eaeea6c1b12f3950ccdaa9d7da37f35789f6a1558f0850b4",
+          "count": 161,
+          "tip": "8f39a66f89d7f79b4aac6f328ab95f0a4748a03f6114fee0b1bd503fe3c3c32c",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "7226c44472636d2d17dde432ee743232be475f6a95015aa303b76e5f041bb644",
-            "events.jsonl": "94da7c3568639aebb64f90e028345617f9b5435fdd4be313cd1a22e176901dc4"
+            "bundle_manifest.json": "76073b64b01c669d79f35d6a53b7e00f091f83714611ac141849536c4a3730dd",
+            "events.jsonl": "8cef86ccb3bea376f0f41c67613d50d23bf752a0a067418cd7d502a90db36fae"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "7226c44472636d2d17dde432ee743232be475f6a95015aa303b76e5f041bb644",
-            "events.jsonl": "94da7c3568639aebb64f90e028345617f9b5435fdd4be313cd1a22e176901dc4"
+            "bundle_manifest.json": "76073b64b01c669d79f35d6a53b7e00f091f83714611ac141849536c4a3730dd",
+            "events.jsonl": "8cef86ccb3bea376f0f41c67613d50d23bf752a0a067418cd7d502a90db36fae"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_145819/A3/ss_004",
-      "bundle_id": "57faa870-304a-4c6e-9844-0ad1e0fd58e3",
+      "bundle_dir": "bundles/20260220_095005/seed42/A3/wildcard_match",
+      "bundle_id": "866bf9fe-6476-4b72-a90c-4fc71116bf6b",
       "checks": {
         "hash_chain": {
-          "count": 19,
-          "tip": "0ad6f8605c00b840e697ceb37c73dfd79e1d44d118dd6b96cbc160bd2dd3f0c4",
+          "count": 165,
+          "tip": "496cfbbef88a4a573fdfdbe3ead47d1ffb431a02b38c023131c4aa0b494d5387",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "af8c46d6b9c3132c26ffa7752e745fd838bc7171e5f1af150cc93b14eb3c7ba5",
-            "events.jsonl": "17914148d8ed8c717881b14e9b20a7b52852a586957c4b6e7e65ff0bcad74407"
+            "bundle_manifest.json": "620a787953b6453a09e724d5801e00084e552732ec43b79f23ff5d0a89b812ea",
+            "events.jsonl": "dac7701a89fc056048f649e6debef5fc94cc765c1be67445b3fbebf6d7cd25ba"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "af8c46d6b9c3132c26ffa7752e745fd838bc7171e5f1af150cc93b14eb3c7ba5",
-            "events.jsonl": "17914148d8ed8c717881b14e9b20a7b52852a586957c4b6e7e65ff0bcad74407"
+            "bundle_manifest.json": "620a787953b6453a09e724d5801e00084e552732ec43b79f23ff5d0a89b812ea",
+            "events.jsonl": "dac7701a89fc056048f649e6debef5fc94cc765c1be67445b3fbebf6d7cd25ba"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_145947/A1/ss_004",
-      "bundle_id": "5ed7e66b-7836-4e3c-b4b2-b6ea2e79b51a",
+      "bundle_dir": "bundles/20260220_095005/seed100/A1/hard2_angular_sort",
+      "bundle_id": "7126bd50-6247-496e-83fe-8a35b37d7154",
       "checks": {
         "hash_chain": {
-          "count": 12,
-          "tip": "335cd5ce90250937d1ee95028512b902ce9caeb34697ee5e6c3c7cd5c33d6e06",
+          "count": 120,
+          "tip": "8654d0e49d7e2164772c49b3e7f8f18028291e6c15cee4ede8dbd4a4493b90b7",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "e59813f814d17506b9a73481ba316cbad8c992d526a91e72327783dc5737117c",
-            "events.jsonl": "831c320ce37bcba7a51c46ff76e74c03ccfe6d1244bc58ffa1673d14e2c1cb84"
+            "bundle_manifest.json": "4d6089654696677dc6f03c74ecc537d7e67ffb408b84ec313ccfcd71eb2e0ab6",
+            "events.jsonl": "c3f30f45d21def55875155bb5bf7f477bca46d297dff40832e0dc1ef5981af53"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "e59813f814d17506b9a73481ba316cbad8c992d526a91e72327783dc5737117c",
-            "events.jsonl": "831c320ce37bcba7a51c46ff76e74c03ccfe6d1244bc58ffa1673d14e2c1cb84"
+            "bundle_manifest.json": "4d6089654696677dc6f03c74ecc537d7e67ffb408b84ec313ccfcd71eb2e0ab6",
+            "events.jsonl": "c3f30f45d21def55875155bb5bf7f477bca46d297dff40832e0dc1ef5981af53"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145947/A2/ss_004",
-      "bundle_id": "8fee7d44-b4ea-4a43-90be-547e78fc094e",
+      "bundle_dir": "bundles/20260220_095005/seed100/A1/ss_010",
+      "bundle_id": "aa788b47-a0f5-45a4-85a0-1b44dfd8d4b2",
       "checks": {
         "hash_chain": {
-          "count": 12,
-          "tip": "262bb86ed673ea6ad10af3233f4be21e4d664acd031aecde91f93f9644b8286d",
+          "count": 142,
+          "tip": "0f4f0581087d64fd8e002de3a1c24ce2797f66c021309eefa83d45d0927f53e5",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "237548522d8cdbcfa17be9fb0111bb57219722938b8d4af89ca895457f92afab",
-            "events.jsonl": "1c8f21b7f0da9b2a0c68358e0f43a4fd4757dcb6c85f3528cc4db531c5f4c203"
+            "bundle_manifest.json": "3dd470f7a7df42601523bac905b13d391afb66c9332f7188cf6700d78a3ce022",
+            "events.jsonl": "56e84b08420403122302e2a74daca68043554a1dd519f23c327b7e2098610642"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "237548522d8cdbcfa17be9fb0111bb57219722938b8d4af89ca895457f92afab",
-            "events.jsonl": "1c8f21b7f0da9b2a0c68358e0f43a4fd4757dcb6c85f3528cc4db531c5f4c203"
+            "bundle_manifest.json": "3dd470f7a7df42601523bac905b13d391afb66c9332f7188cf6700d78a3ce022",
+            "events.jsonl": "56e84b08420403122302e2a74daca68043554a1dd519f23c327b7e2098610642"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145947/A3/ss_004",
-      "bundle_id": "975f7729-e53e-4cfe-b165-077c4c4392fd",
+      "bundle_dir": "bundles/20260220_095005/seed100/A1/ss_007",
+      "bundle_id": "8c13232f-941c-4112-9adc-18346fd7a484",
       "checks": {
         "hash_chain": {
-          "count": 18,
-          "tip": "a337110f81b5c59171af5b40e002c88c58cf3c24788f2fc1eb04b0f68eb266a0",
+          "count": 142,
+          "tip": "ebf1d22b564362483af503f8efceb7cc4e2d1feba5b78da21e26e327c26f81f7",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "e856080d9e84f7b77a2149d21fa17e5fd68813250fb6c3206374aac383c2c5f3",
-            "events.jsonl": "9dbb9c3fd27347e6eced3a06eac832db94ff5bb2c6fb8a72691ac4ccee817ed4"
+            "bundle_manifest.json": "fb3b8296ed267c07d766c65c8b513caf1e28ce4f139bf72d8e816200217132c1",
+            "events.jsonl": "9a9fdbe0579c0a3994f13640d310d8d21ac109d34eaa962c450b0f0ca048bd23"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "e856080d9e84f7b77a2149d21fa17e5fd68813250fb6c3206374aac383c2c5f3",
-            "events.jsonl": "9dbb9c3fd27347e6eced3a06eac832db94ff5bb2c6fb8a72691ac4ccee817ed4"
+            "bundle_manifest.json": "fb3b8296ed267c07d766c65c8b513caf1e28ce4f139bf72d8e816200217132c1",
+            "events.jsonl": "9a9fdbe0579c0a3994f13640d310d8d21ac109d34eaa962c450b0f0ca048bd23"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "ss_004"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145630/A1/hard2_complex_transform",
-      "bundle_id": "411c309e-b509-49b0-8316-f39719e817e9",
+      "bundle_dir": "bundles/20260220_095005/seed100/A1/adjacent_hanoi",
+      "bundle_id": "262bb7af-5005-4279-a5e0-d695bbec36ad",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "8ef3ebe0310429928f28b5cbe6132b8d0bbc19afaf3d132ab3f6253bc730cbe8",
+          "count": 142,
+          "tip": "1913f485fc6ccb0ed9631574963368d90f1ffdeb57745c740735681c73195b15",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "7d19cd97d8d33e31388c036042d6cb854d073a31dfdcfb773bc06187a9405a65",
-            "events.jsonl": "d9fe080faa415f284c9486383c357f46bb075fbba92fd93ba4c17ad4ac0b3f7b"
+            "bundle_manifest.json": "ae575c57b8750864d37c2388365f6ac451654af3d784b305e600ee3188d13287",
+            "events.jsonl": "5c5fdeaeca6e9590f531ecf7b8ee0b8f5e169c351dd24637f43f44693eda4935"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "7d19cd97d8d33e31388c036042d6cb854d073a31dfdcfb773bc06187a9405a65",
-            "events.jsonl": "d9fe080faa415f284c9486383c357f46bb075fbba92fd93ba4c17ad4ac0b3f7b"
+            "bundle_manifest.json": "ae575c57b8750864d37c2388365f6ac451654af3d784b305e600ee3188d13287",
+            "events.jsonl": "5c5fdeaeca6e9590f531ecf7b8ee0b8f5e169c351dd24637f43f44693eda4935"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_145630/A2/hard2_complex_transform",
-      "bundle_id": "8384e6d2-9763-40b0-9956-a943729072bd",
+      "bundle_dir": "bundles/20260220_095005/seed100/A1/wildcard_match",
+      "bundle_id": "09e94400-7bf0-4f4a-a11d-4f2c47804f8c",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "af54d35508d05454e2348225a3c78525a327ecf589864cd6084bb8d1fdaa3f3a",
+          "count": 142,
+          "tip": "242e4b109f4a7b22cace674c09b0cefe31efcf4096af6cb35494ba374fb645eb",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "e00a1e96262c4670bff7c591ef4d423e018e5f0ad0d7e1737c8f9a063aa4d2d9",
-            "events.jsonl": "08fa78ae20545e638d4eec1f3e92ab2af1ac4484c49fe2c416045401f92d3c4c"
+            "bundle_manifest.json": "4ccf34cac132c33d8059da166331fb32a516b7e7febcc33e1c1b0334ce625ab1",
+            "events.jsonl": "7322f293a35bc5d1d4e0aadbe24664c09d599b7f2f760f0c8f16187d760aec77"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "e00a1e96262c4670bff7c591ef4d423e018e5f0ad0d7e1737c8f9a063aa4d2d9",
-            "events.jsonl": "08fa78ae20545e638d4eec1f3e92ab2af1ac4484c49fe2c416045401f92d3c4c"
+            "bundle_manifest.json": "4ccf34cac132c33d8059da166331fb32a516b7e7febcc33e1c1b0334ce625ab1",
+            "events.jsonl": "7322f293a35bc5d1d4e0aadbe24664c09d599b7f2f760f0c8f16187d760aec77"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_145630/A3/hard2_complex_transform",
-      "bundle_id": "42ac486e-a798-423a-9a4b-f02d59147787",
+      "bundle_dir": "bundles/20260220_095005/seed100/A2/hard2_angular_sort",
+      "bundle_id": "4002b4b2-c11e-45c4-b5bd-203837639a9b",
       "checks": {
         "hash_chain": {
-          "count": 14,
-          "tip": "cf52bb3bba58eb5b3154e095035a70137972acc3af8ba4485d2b32a66cb2b027",
+          "count": 122,
+          "tip": "656b9cd65f1bde9a940fdac2caaac26463c33ebce76048e29b7c4145c63d94a1",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "52b6f1106cc8c65a3a771a9505776b89ea8db8e0712089895c78b33f7dfd9117",
-            "events.jsonl": "4915bf9c11338591159532ffba138f2ec84a16f19cec90a09aa93ff0562e162c"
+            "bundle_manifest.json": "9ab3c41e2eb3934559d0e2d0d2c0b68667bffa3ea4b509fd53c2d507fd26e300",
+            "events.jsonl": "f84aa7c4e9123d29f9917e1a1764786df456beec8872aeefdd863a33cf8faa76"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "52b6f1106cc8c65a3a771a9505776b89ea8db8e0712089895c78b33f7dfd9117",
-            "events.jsonl": "4915bf9c11338591159532ffba138f2ec84a16f19cec90a09aa93ff0562e162c"
+            "bundle_manifest.json": "9ab3c41e2eb3934559d0e2d0d2c0b68667bffa3ea4b509fd53c2d507fd26e300",
+            "events.jsonl": "f84aa7c4e9123d29f9917e1a1764786df456beec8872aeefdd863a33cf8faa76"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145848/A1/hard2_complex_transform",
-      "bundle_id": "55ad9de9-84e6-458e-88a1-27a887800819",
+      "bundle_dir": "bundles/20260220_095005/seed100/A2/ss_010",
+      "bundle_id": "39ede695-58bd-4b11-8b92-b2041607823d",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "0c995c7f803f9fee26e94865896d57ab4a37abc9860726ced40a8cb43ae92335",
+          "count": 146,
+          "tip": "6d61ba42543a736f4ac65beab4265dae4c10de82be5ec56ea1bc7b8909d08a4d",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "b50b00c460807b3c4bdc07314fbc889bb0d69af49a61e1727db68546325a3ab8",
-            "events.jsonl": "c620740de1aae432ac230c58fc3c2120c2b1ad7d873745d5ef13d274b02643c8"
+            "bundle_manifest.json": "2e0ad872bf644f48892446a49ed2eed6d804cf4000199246400316fddb66a876",
+            "events.jsonl": "51ab72c999c942c9ffd9eb5733939d20a29656db642ff0083f199c008224173b"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "b50b00c460807b3c4bdc07314fbc889bb0d69af49a61e1727db68546325a3ab8",
-            "events.jsonl": "c620740de1aae432ac230c58fc3c2120c2b1ad7d873745d5ef13d274b02643c8"
+            "bundle_manifest.json": "2e0ad872bf644f48892446a49ed2eed6d804cf4000199246400316fddb66a876",
+            "events.jsonl": "51ab72c999c942c9ffd9eb5733939d20a29656db642ff0083f199c008224173b"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145848/A2/hard2_complex_transform",
-      "bundle_id": "efcc96c7-a032-44cd-8f1c-750a91e653dc",
+      "bundle_dir": "bundles/20260220_095005/seed100/A2/ss_007",
+      "bundle_id": "56811900-739f-4561-8e17-5a9ae731506b",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "1f57b0859fe9b8bc35cc4cdf828989cb1ce8732539e7fcdaf37913ebe56ffc38",
+          "count": 152,
+          "tip": "9e752954d41dd23fb65dc6f2368e157a17a25bb1b6f9999ad533ae0d5bfc5002",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "004b55b6087d5032a46fa3b4c8f2c58d71ae246ed0e597c9026738cfe40eb738",
-            "events.jsonl": "fb2a65931acba099270c4238aad921c00b2c58702b13fa74c170791593dc0c53"
+            "bundle_manifest.json": "68c6ca61bf4280953540cbf2a3c92e3937f819592f6133e9220f10de82a15ead",
+            "events.jsonl": "10e4dff3fc0b766a093c8ecd0e17753244e7b0bf36faa604e43390e358261676"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "004b55b6087d5032a46fa3b4c8f2c58d71ae246ed0e597c9026738cfe40eb738",
-            "events.jsonl": "fb2a65931acba099270c4238aad921c00b2c58702b13fa74c170791593dc0c53"
+            "bundle_manifest.json": "68c6ca61bf4280953540cbf2a3c92e3937f819592f6133e9220f10de82a15ead",
+            "events.jsonl": "10e4dff3fc0b766a093c8ecd0e17753244e7b0bf36faa604e43390e358261676"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145848/A3/hard2_complex_transform",
-      "bundle_id": "0a81e930-7979-48ea-adcf-0e1f14de510c",
+      "bundle_dir": "bundles/20260220_095005/seed100/A2/adjacent_hanoi",
+      "bundle_id": "ba24a37f-ceea-48dd-b0c9-19511dd299db",
       "checks": {
         "hash_chain": {
-          "count": 14,
-          "tip": "eaab2094f55b48948ecfd9c2126ce0e955a9aaca7fb2ff5d646ffb0598310d2d",
+          "count": 146,
+          "tip": "acbbffa211777de261f0067b54bdf33c9b7d8db1c35380fda1b1b3e051f1e548",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "3a425bf27f022f4962acc988ad434c6417ca53cfabcb5a2d940bcc5c4286e5e9",
-            "events.jsonl": "c8e0a02e512acd4d9d86fc850f9516c008f3a3b91e7caa2b0a6beabf6c5c2cc4"
+            "bundle_manifest.json": "2071280fc5087c3b71d95fa5db2efb3b0c506a4faa88aebdbb864b4c3b232f7e",
+            "events.jsonl": "2c6219194ee63df52a9a07bc1e4287b0dcbd52efcfc7c82a78f7eea94f2f1a1c"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "3a425bf27f022f4962acc988ad434c6417ca53cfabcb5a2d940bcc5c4286e5e9",
-            "events.jsonl": "c8e0a02e512acd4d9d86fc850f9516c008f3a3b91e7caa2b0a6beabf6c5c2cc4"
+            "bundle_manifest.json": "2071280fc5087c3b71d95fa5db2efb3b0c506a4faa88aebdbb864b4c3b232f7e",
+            "events.jsonl": "2c6219194ee63df52a9a07bc1e4287b0dcbd52efcfc7c82a78f7eea94f2f1a1c"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_150013/A1/hard2_complex_transform",
-      "bundle_id": "c96a5fb6-9a9b-47d2-abb9-bbca7c4db384",
+      "bundle_dir": "bundles/20260220_095005/seed100/A2/wildcard_match",
+      "bundle_id": "4ae95718-41c3-4fe0-b1f3-5dd66672a41f",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "e4b76e29aa8850ab968fba9512f675ba3f0c163fe71a5993d9e614e8a1defac3",
+          "count": 152,
+          "tip": "d95cf61e7f2329586f91f7026bc66c77362b4b2a450df23b267b0c6db2e6f517",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "621693c1786539039a609c0ca6e1dda739ef17ae62e3a6e5a36acdd0d72040c1",
-            "events.jsonl": "076cfb554d1dc723200fa47251bff28d543fca8df2550507fdf97ca1b60de9ec"
+            "bundle_manifest.json": "cf887a47f4579af17423e899f0db5f1cf96863ccd57991fa87fab524ac62762a",
+            "events.jsonl": "ffa65494d95c8ed4cf3ee695ec54b3706e2d8dae0036795dcf214d6f2dee95da"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "621693c1786539039a609c0ca6e1dda739ef17ae62e3a6e5a36acdd0d72040c1",
-            "events.jsonl": "076cfb554d1dc723200fa47251bff28d543fca8df2550507fdf97ca1b60de9ec"
+            "bundle_manifest.json": "cf887a47f4579af17423e899f0db5f1cf96863ccd57991fa87fab524ac62762a",
+            "events.jsonl": "ffa65494d95c8ed4cf3ee695ec54b3706e2d8dae0036795dcf214d6f2dee95da"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_150013/A2/hard2_complex_transform",
-      "bundle_id": "ce8608d9-6d5a-48dd-8ace-171f2d40ae58",
+      "bundle_dir": "bundles/20260220_095005/seed100/A3/hard2_angular_sort",
+      "bundle_id": "67fcc7d8-c65f-43f6-9558-f5be4d787d23",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "9ca89f302cc97967469bcf7b2021dd129e788ca4893bbb15214e3e1842e35146",
+          "count": 131,
+          "tip": "6d4d099f579a2320fab6a1b29955f0857818ed1a5f939f9368ea41277a8032f0",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "08baa166839178c9b994d3fa0c4772a2a0889c6286fe764baf6f7a7e37a505c2",
-            "events.jsonl": "7b86c4d46d3e843ad337c00a8b6ed69dc54c4914ecff34dcf62fd1377ad4d77d"
+            "bundle_manifest.json": "b1f59878a1b5ca9c4f93eaa6eef5de5035f91c9e6face6e3c2d74f0e15d91085",
+            "events.jsonl": "3a4ad46d1a8cffd08d1f41b7ec8173be623f3a2e0b6098d9671212a21781e9e1"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "08baa166839178c9b994d3fa0c4772a2a0889c6286fe764baf6f7a7e37a505c2",
-            "events.jsonl": "7b86c4d46d3e843ad337c00a8b6ed69dc54c4914ecff34dcf62fd1377ad4d77d"
+            "bundle_manifest.json": "b1f59878a1b5ca9c4f93eaa6eef5de5035f91c9e6face6e3c2d74f0e15d91085",
+            "events.jsonl": "3a4ad46d1a8cffd08d1f41b7ec8173be623f3a2e0b6098d9671212a21781e9e1"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_150013/A3/hard2_complex_transform",
-      "bundle_id": "d8ef22fa-d7a4-49d5-aef4-8e1d317d9c2f",
+      "bundle_dir": "bundles/20260220_095005/seed100/A3/ss_010",
+      "bundle_id": "37e45dd4-9ad2-46b1-b68f-e09b6da43066",
       "checks": {
         "hash_chain": {
-          "count": 14,
-          "tip": "d911c74d19d1b94c2686adbb67aa4e7cfca9cac485e48014d7ebccd0e65ab8cd",
+          "count": 158,
+          "tip": "befeba30401bc09624a1142b4874457c371221ce2a369733cdab2f2a0e53e5ea",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "4402ab8890d795a9b1a526fe3730f3856676e395ee6952e9086f23880d159117",
-            "events.jsonl": "c23860a1c4788aba7d6c908157bc6d8107fea2d19c7d9faee1967196d97c7907"
+            "bundle_manifest.json": "d584b8f1b58aaa2a6fa2afe622569ec94248ba9c042728d794a79784ff8520c3",
+            "events.jsonl": "a8f9f5f0bdecb62fd727ccf560b409ad4bb2cee4f14327262b1ecbfb374eecc0"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "4402ab8890d795a9b1a526fe3730f3856676e395ee6952e9086f23880d159117",
-            "events.jsonl": "c23860a1c4788aba7d6c908157bc6d8107fea2d19c7d9faee1967196d97c7907"
+            "bundle_manifest.json": "d584b8f1b58aaa2a6fa2afe622569ec94248ba9c042728d794a79784ff8520c3",
+            "events.jsonl": "a8f9f5f0bdecb62fd727ccf560b409ad4bb2cee4f14327262b1ecbfb374eecc0"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145655/A1/hard2_complex_transform",
-      "bundle_id": "8e08c4e6-63b5-4373-b526-f2b9d6c19daf",
+      "bundle_dir": "bundles/20260220_095005/seed100/A3/ss_007",
+      "bundle_id": "50f6f7b6-1f79-4fae-b1f8-52a651bca8c8",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "5007904c45caa2cdb9e6c55c54b32e0edcfc7b9b23208c191fd5d387f9dc7d51",
+          "count": 165,
+          "tip": "931ebbbe676a60cf3adc4ce8f005ed1b005c736203f9891c66bd3e48c5ea4401",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "ced6686b0e5b987a5d04ee7f6e1332e1e738cc2a6e89185860b12acb9e88c07a",
-            "events.jsonl": "b248d6d967ea5c82e93128f372a7682266ef32ebe64eb1316f155721838a6dfc"
+            "bundle_manifest.json": "1e1b9b85aaf4a420f22d47c636049fe979327fb8c07721489ebae68fb49ae7c8",
+            "events.jsonl": "2123a08d756e59a7360aa224a85ebbd334a625760715dcf018f365da5b0d593e"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "ced6686b0e5b987a5d04ee7f6e1332e1e738cc2a6e89185860b12acb9e88c07a",
-            "events.jsonl": "b248d6d967ea5c82e93128f372a7682266ef32ebe64eb1316f155721838a6dfc"
+            "bundle_manifest.json": "1e1b9b85aaf4a420f22d47c636049fe979327fb8c07721489ebae68fb49ae7c8",
+            "events.jsonl": "2123a08d756e59a7360aa224a85ebbd334a625760715dcf018f365da5b0d593e"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_145655/A2/hard2_complex_transform",
-      "bundle_id": "6cb9de35-1030-494e-9917-b8bba1e01d70",
+      "bundle_dir": "bundles/20260220_095005/seed100/A3/adjacent_hanoi",
+      "bundle_id": "5a4f32a9-4865-4e9f-962b-011588ab53a7",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "0ae6bb0159f8c054fa7b0fcd979189e226ed8eba4919147bdb5769617c536071",
+          "count": 155,
+          "tip": "2671383551076fb4dbbc27783dacee0ec304d18d621e762026777adfa2522021",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "0770c93d7e415de2fc2d74125c86b57946de515cac09f93fced824a83dd94a25",
-            "events.jsonl": "8bb48cee1f2b452ffda7158b11473cc9bdcd8e30babd9ad4f2065fbf32f7a8a4"
+            "bundle_manifest.json": "831f7e0cd3451f98ec862615c4369c110dc03aab0364c386944e9db2a1fcca69",
+            "events.jsonl": "191455b70600949713db9e6ab46bf3ba4430f32f259368144dd908eb968067b7"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "0770c93d7e415de2fc2d74125c86b57946de515cac09f93fced824a83dd94a25",
-            "events.jsonl": "8bb48cee1f2b452ffda7158b11473cc9bdcd8e30babd9ad4f2065fbf32f7a8a4"
+            "bundle_manifest.json": "831f7e0cd3451f98ec862615c4369c110dc03aab0364c386944e9db2a1fcca69",
+            "events.jsonl": "191455b70600949713db9e6ab46bf3ba4430f32f259368144dd908eb968067b7"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_145655/A3/hard2_complex_transform",
-      "bundle_id": "90c79a05-3f93-4e7a-958b-5e59cfb6693a",
+      "bundle_dir": "bundles/20260220_095005/seed100/A3/wildcard_match",
+      "bundle_id": "4efd7fa9-04ed-4e95-9c72-13c9413fb3c3",
       "checks": {
         "hash_chain": {
-          "count": 14,
-          "tip": "c6c3414209768352ef8d4b9662f3948995d7de7f4515ccda25b49267a61aed4d",
+          "count": 165,
+          "tip": "3c65545a9dbcd2b99662c6517ad132f538e0071554469285c7522c84a1a7fed8",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "1161665af58c7869db10e8e9fc967851db3f837fda377ba964bdbc501de2fefe",
-            "events.jsonl": "d74a47747b10e146d2a4a577edf4dc86a2023f51ee83f1580d75e757de1beb25"
+            "bundle_manifest.json": "9298710b5a0fe779df4710047ec2cc195991dbea7817f7e3a484709d5b8e4850",
+            "events.jsonl": "19df9047ca2e280c3ec9734639c4ee55eed37e9cb3c1a05b46a046c4ceec8340"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "1161665af58c7869db10e8e9fc967851db3f837fda377ba964bdbc501de2fefe",
-            "events.jsonl": "d74a47747b10e146d2a4a577edf4dc86a2023f51ee83f1580d75e757de1beb25"
+            "bundle_manifest.json": "9298710b5a0fe779df4710047ec2cc195991dbea7817f7e3a484709d5b8e4850",
+            "events.jsonl": "19df9047ca2e280c3ec9734639c4ee55eed37e9cb3c1a05b46a046c4ceec8340"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_145914/A1/hard2_complex_transform",
-      "bundle_id": "2160800d-46de-4e79-9b21-d18730041bf0",
+      "bundle_dir": "bundles/20260220_095005/seed200/A1/hard2_angular_sort",
+      "bundle_id": "ae6f81e3-25dc-44de-8e91-1c004a5cdadf",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "93c06526fa4bc2051c3a54411940463b4cfcdc0bcaa6fe5afbe623d6e2476d13",
+          "count": 120,
+          "tip": "6f70f70876621a43350d5ffdbb1cb765cf9a2d958e2ba6618286d9ab9f67b352",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "1308cbec67fd8df885b2cd5609be3c3c624bf0fc02f8b79a5d8cf0a5ec67da69",
-            "events.jsonl": "60469eeaebd107859279ca1621266cc920ec56e492f32695bd3e6f74fcd69925"
+            "bundle_manifest.json": "302f44782b2e65824a8991f36720aca02cadac7e5b261b521cad9d1eb69d3adc",
+            "events.jsonl": "a8f294c1405f3af8bb749af070beb5abe1d52f7f914318a050e20632a68b007e"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "1308cbec67fd8df885b2cd5609be3c3c624bf0fc02f8b79a5d8cf0a5ec67da69",
-            "events.jsonl": "60469eeaebd107859279ca1621266cc920ec56e492f32695bd3e6f74fcd69925"
+            "bundle_manifest.json": "302f44782b2e65824a8991f36720aca02cadac7e5b261b521cad9d1eb69d3adc",
+            "events.jsonl": "a8f294c1405f3af8bb749af070beb5abe1d52f7f914318a050e20632a68b007e"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260216_145914/A2/hard2_complex_transform",
-      "bundle_id": "d5aac998-729f-46dd-9784-d277cacf88fa",
+      "bundle_dir": "bundles/20260220_095005/seed200/A1/ss_010",
+      "bundle_id": "2c758ebb-db06-4e51-bb94-a42d1cb7b226",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "2f26330ac38c9e9cc1ed569f03357084e1c742ed8c406233904c3d5954a55dda",
+          "count": 142,
+          "tip": "835d200a0767bce879a9bc3a33c0cd2f3b78ad1e80ffde47f1eb2ea091b323b7",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "941264883325fa810fcccd307fe5105b4e3ce9acf7ba746a9944fb949a85cc61",
-            "events.jsonl": "99aa4ecfa97acfe98d08bb8015aa7e7834db139fde7aaf70cd4a23e85f3aca98"
+            "bundle_manifest.json": "11c12b8a431a64e5306d43b4c05e834c1274d4ea3baf227906f2ae6feb816bc0",
+            "events.jsonl": "66dbf3e5186535cc0a71b9134c8921e496248b5ff03980811139d10e1b46323c"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "941264883325fa810fcccd307fe5105b4e3ce9acf7ba746a9944fb949a85cc61",
-            "events.jsonl": "99aa4ecfa97acfe98d08bb8015aa7e7834db139fde7aaf70cd4a23e85f3aca98"
+            "bundle_manifest.json": "11c12b8a431a64e5306d43b4c05e834c1274d4ea3baf227906f2ae6feb816bc0",
+            "events.jsonl": "66dbf3e5186535cc0a71b9134c8921e496248b5ff03980811139d10e1b46323c"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260216_145914/A3/hard2_complex_transform",
-      "bundle_id": "2a425b5c-9b9c-4f70-b260-2aab4640ed8c",
+      "bundle_dir": "bundles/20260220_095005/seed200/A1/ss_007",
+      "bundle_id": "a6dab163-7048-45d6-9a83-bac6a5932594",
       "checks": {
         "hash_chain": {
-          "count": 14,
-          "tip": "1472fcd43f31e8f66362995ac06ee8406fafece1bb110d680ae26c9f42904622",
+          "count": 148,
+          "tip": "5c1a7c35fdc72d14e3d2a94a067e1748d69240b10d4d524c8a89db9b5e4c8ab0",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "a8bae4e4ae4809d6dfadb146981638854fab154e57c2aba37a7c57841dd9a36d",
-            "events.jsonl": "bdd0c0c85c5e9edb647b22395e8752dcc4c2fa179b0305f417b4e08fc0334927"
+            "bundle_manifest.json": "f9916089674b3cd9547993f4117eb15e1f2704e80bc515d0e5771646a05365d0",
+            "events.jsonl": "1ef8156760d80752636bd3be98a3d0e0086bd20660e95b2459c23c7b14ee0912"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "a8bae4e4ae4809d6dfadb146981638854fab154e57c2aba37a7c57841dd9a36d",
-            "events.jsonl": "bdd0c0c85c5e9edb647b22395e8752dcc4c2fa179b0305f417b4e08fc0334927"
+            "bundle_manifest.json": "f9916089674b3cd9547993f4117eb15e1f2704e80bc515d0e5771646a05365d0",
+            "events.jsonl": "1ef8156760d80752636bd3be98a3d0e0086bd20660e95b2459c23c7b14ee0912"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260216_150059/A1/hard2_complex_transform",
-      "bundle_id": "46de1742-f018-4595-b501-b47e94b02827",
+      "bundle_dir": "bundles/20260220_095005/seed200/A1/adjacent_hanoi",
+      "bundle_id": "950932f7-4cc2-431a-8172-2220c23e6292",
       "checks": {
         "hash_chain": {
-          "count": 8,
-          "tip": "ab47f1cf777e936937e159986f3039f0a932b73dc23827b1c971efd88e2483fb",
+          "count": 144,
+          "tip": "2eb74a8036809617c293dd053c396c9ad3cfc269a91b51b8ad9231152e9a2b5d",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "80ace14757f5aedfc870987531bbbd93d99893b85aa1870b0cdc6c26af60f8d9",
-            "events.jsonl": "8ad9a519733a74a7ba7dbed4e8ac05b155ca11203a0e6e0f34b2eccfbe03f4e7"
+            "bundle_manifest.json": "d6c192b3ec41694422bda4d5818b4d0126bd36b5ca8e6586aaa7ecc9d4c0fffe",
+            "events.jsonl": "33e87915ca4b078370996ae8ffa34512e121f14fc5919553d7627fdd2d77d704"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "80ace14757f5aedfc870987531bbbd93d99893b85aa1870b0cdc6c26af60f8d9",
-            "events.jsonl": "8ad9a519733a74a7ba7dbed4e8ac05b155ca11203a0e6e0f34b2eccfbe03f4e7"
+            "bundle_manifest.json": "d6c192b3ec41694422bda4d5818b4d0126bd36b5ca8e6586aaa7ecc9d4c0fffe",
+            "events.jsonl": "33e87915ca4b078370996ae8ffa34512e121f14fc5919553d7627fdd2d77d704"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "adjacent_hanoi"
     },
     {
-      "bundle_dir": "bundles/20260216_150059/A2/hard2_complex_transform",
-      "bundle_id": "80322ede-c251-4b4b-b671-1861f3263a7d",
+      "bundle_dir": "bundles/20260220_095005/seed200/A1/wildcard_match",
+      "bundle_id": "7497875a-8db0-46b0-81a6-8810ef756dd7",
       "checks": {
         "hash_chain": {
-          "count": 7,
-          "tip": "f9825e596484fac536beb0ead9005e20d02d20cd9a1d8e061c079821faad3460",
+          "count": 148,
+          "tip": "ef01d482569858debe3561857bffa636e2a0612c3704f45976b4a0208f7834b7",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "2c5d8c7dd60500fd04d3d16748dff06475d10b6ac5be1ef696f96dcfffbfd773",
-            "events.jsonl": "913bc554de8c3bbaeb1d0d8e0a25b06ffadafe7a9bae3c9b8cccc7cc0fd9d96a"
+            "bundle_manifest.json": "2e057e947752fd9245a482b0f2f9cfeb7a1c42edcf7ff67e8949a77ef42a1beb",
+            "events.jsonl": "e241a25672688a3e06f9822cfedd8ffc762e8ac0577278f9f8b5a85881071630"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "2c5d8c7dd60500fd04d3d16748dff06475d10b6ac5be1ef696f96dcfffbfd773",
-            "events.jsonl": "913bc554de8c3bbaeb1d0d8e0a25b06ffadafe7a9bae3c9b8cccc7cc0fd9d96a"
+            "bundle_manifest.json": "2e057e947752fd9245a482b0f2f9cfeb7a1c42edcf7ff67e8949a77ef42a1beb",
+            "events.jsonl": "e241a25672688a3e06f9822cfedd8ffc762e8ac0577278f9f8b5a85881071630"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "wildcard_match"
     },
     {
-      "bundle_dir": "bundles/20260216_150059/A3/hard2_complex_transform",
-      "bundle_id": "1a830a51-c9a0-4954-b473-0dbecb7a5d4e",
+      "bundle_dir": "bundles/20260220_095005/seed200/A2/hard2_angular_sort",
+      "bundle_id": "41972528-205a-40a3-ac63-6b44a6569a9b",
       "checks": {
         "hash_chain": {
-          "count": 16,
-          "tip": "19f23719c578feb233fd25382b3806ef22ddd132c608cb9f90ca956658c99a89",
+          "count": 124,
+          "tip": "383a303473aa9735bf6878a885a2947e80452be4c832aa655a4d929bd360fc9f",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "8105a962f169a71557d3e45c7bf99563c8dc141f15d7386a6bd92a82c3ad65cc",
-            "events.jsonl": "89083a2bf08ae94e45c94540612ff37dc367dd24e595d79d53cc01a2de2098cb"
+            "bundle_manifest.json": "7cab4fb8c62f34d042eeb097cf42e078889b68933e9d867a9c9ac7184e4dccd5",
+            "events.jsonl": "386375f8d97bfd3d20e67bc9c933a5dbdd65a1a992272c63aad9b49cca4ed73a"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "8105a962f169a71557d3e45c7bf99563c8dc141f15d7386a6bd92a82c3ad65cc",
-            "events.jsonl": "89083a2bf08ae94e45c94540612ff37dc367dd24e595d79d53cc01a2de2098cb"
+            "bundle_manifest.json": "7cab4fb8c62f34d042eeb097cf42e078889b68933e9d867a9c9ac7184e4dccd5",
+            "events.jsonl": "386375f8d97bfd3d20e67bc9c933a5dbdd65a1a992272c63aad9b49cca4ed73a"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "hard2_complex_transform"
+      "task_id": "hard2_angular_sort"
     },
     {
-      "bundle_dir": "bundles/20260208_111245/A1/lcb_v6_003",
-      "bundle_id": "e7ad16b2-2625-407c-a147-381d043e80d5",
+      "bundle_dir": "bundles/20260220_095005/seed200/A2/ss_010",
+      "bundle_id": "dd230561-d962-4b80-b19f-8d07d8ca80fb",
       "checks": {
         "hash_chain": {
-          "count": 12,
-          "tip": "81b28b2492891bc001e0620a1fa1d34b39e2f56191a936aa290a343231a8b147",
+          "count": 146,
+          "tip": "9a13ec5acd1bb3ff1530314a998825ebc55896fb6fc7964eed4e383eb379f95c",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "ab16a894a18a33d35e1d42b43143aae1c5174f9c269deef2011e82ec494d26d8",
-            "events.jsonl": "fb49801766f244f41f8c34eeadf2db1d5bb234ff22fbf50b71d717d96c6635f7"
+            "bundle_manifest.json": "03f006775966c456faba044e2aaa6233c7b766c856107ce589b28de60a3ac21b",
+            "events.jsonl": "b8c3830004690ccd46536099fa96be76aec588364653d1add662394bf1bcc047"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "ab16a894a18a33d35e1d42b43143aae1c5174f9c269deef2011e82ec494d26d8",
-            "events.jsonl": "fb49801766f244f41f8c34eeadf2db1d5bb234ff22fbf50b71d717d96c6635f7"
+            "bundle_manifest.json": "03f006775966c456faba044e2aaa6233c7b766c856107ce589b28de60a3ac21b",
+            "events.jsonl": "b8c3830004690ccd46536099fa96be76aec588364653d1add662394bf1bcc047"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "lcb_v6_003"
+      "task_id": "ss_010"
     },
     {
-      "bundle_dir": "bundles/20260208_111245/A2/lcb_v6_003",
-      "bundle_id": "c479eeac-dc63-4a71-aa13-da948085b896",
+      "bundle_dir": "bundles/20260220_095005/seed200/A2/ss_007",
+      "bundle_id": "1f5d0258-62ec-4b4e-9b50-d4f5890a7af5",
       "checks": {
         "hash_chain": {
-          "count": 13,
-          "tip": "5d0a4787f0f535d377ba11d978d65a432600e9aee2f53c3b8c83bb3f71812348",
+          "count": 152,
+          "tip": "07a9190d0d26346d7e9b91a4b6a756654ae521a45b8966a89a2c7ebfa40c38de",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "29cb6ccebc1506a76ccd618f23a04cf2320b49cb74782d954b132ca3383997ef",
-            "events.jsonl": "706605769abcac58ed733424251bf0a6d60e95240e81fbe4853774da1f9d0910"
+            "bundle_manifest.json": "4f690ce3302aa96649885f7ea65c42596d19418ba00fbce0fec4675d44dd8d52",
+            "events.jsonl": "18bbd10c5112d3d692cafe06e9bc044229bc50ee508b6aff78a7ec8214f64d3a"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "29cb6ccebc1506a76ccd618f23a04cf2320b49cb74782d954b132ca3383997ef",
-            "events.jsonl": "706605769abcac58ed733424251bf0a6d60e95240e81fbe4853774da1f9d0910"
+            "bundle_manifest.json": "4f690ce3302aa96649885f7ea65c42596d19418ba00fbce0fec4675d44dd8d52",
+            "events.jsonl": "18bbd10c5112d3d692cafe06e9bc044229bc50ee508b6aff78a7ec8214f64d3a"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "lcb_v6_003"
+      "task_id": "ss_007"
     },
     {
-      "bundle_dir": "bundles/20260208_111245/A3/lcb_v6_003",
-      "bundle_id": "71f5bbd9-8705-4032-8fbf-fb8e9b327d1d",
+      "bundle_dir": "bundles/20260220_095005/seed200/A2/adjacent_hanoi",
+      "bundle_id": "8e0d4965-2c87-4ca5-a659-e3e99d51aeb9",
       "checks": {
         "hash_chain": {
-          "count": 13,
-          "tip": "b91b07283c723d53d414f1d6fe6b04117c5ef6ff0f2b015b2579f8658d3d932b",
+          "count": 142,
+          "tip": "7bc35e0d8b7c5a772d9b0bea1547053fb744b9ca1f43f2bfb3b56fd1198f1728",
           "valid": true
         },
         "integrity_file_hashes": {
           "actual": {
-            "bundle_manifest.json": "c8fb8f8d6676ef48c4bdaadb03f26cc39f9ac6bebff966c04a059b260b74d32e",
-            "events.jsonl": "7b461b41144f0a4949ff76b854d4d57a72909c89de861d829df2973bb34fcb6d"
+            "bundle_manifest.json": "6f3b0af9f8b72c004315e8113b365edb5d45661ef4221407694c1538d4fbf0a3",
+            "events.jsonl": "85579cb6cd81cceeb1b0aa406b9f19821caf3b90ef4b0f6c6ca865ba56369227"
           },
           "events_match": true,
           "manifest_match": true,
           "recorded": {
-            "bundle_manifest.json": "c8fb8f8d6676ef48c4bdaadb03f26cc39f9ac6bebff966c04a059b260b74d32e",
-            "events.jsonl": "7b461b41144f0a4949ff76b854d4d57a72909c89de861d829df2973bb34fcb6d"
+            "bundle_manifest.json": "6f3b0af9f8b72c004315e8113b365edb5d45661ef4221407694c1538d4fbf0a3",
+            "events.jsonl": "85579cb6cd81cceeb1b0aa406b9f19821caf3b90ef4b0f6c6ca865ba56369227"
           }
         },
         "manifest": "ok"
       },
       "status": "PASS",
-      "task_id": "lcb_v6_003"
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A2/wildcard_match",
+      "bundle_id": "f56f019e-33fe-46ec-a58d-90aefea08c64",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "95a32951754791f84e354aafb568bc98dcb386cca03e543148b64bacaef78363",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "24c658f288e93f7713627b6630972aec8cc9b9a42824ada32710e65d29c75b86",
+            "events.jsonl": "f9dca2ccdb126a0c3d5f66e7ddd889fa0bf5b47c384af47926b8c799e3b734df"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "24c658f288e93f7713627b6630972aec8cc9b9a42824ada32710e65d29c75b86",
+            "events.jsonl": "f9dca2ccdb126a0c3d5f66e7ddd889fa0bf5b47c384af47926b8c799e3b734df"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A3/hard2_angular_sort",
+      "bundle_id": "93834159-b024-4812-bc1d-e9b2a90f0ab3",
+      "checks": {
+        "hash_chain": {
+          "count": 132,
+          "tip": "e2077fae6b821febb7d26d5646e35d785fe8d3122b77f1fc106dca13277a44e6",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "d638721e9de52b0079d1d1e2cff15b0e5a80acf18fcecb5483e3c7191eaf1076",
+            "events.jsonl": "d02524af402dccce1d5071eb8780bb2ae759acf1b7af3c59795bdbd8753f0388"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "d638721e9de52b0079d1d1e2cff15b0e5a80acf18fcecb5483e3c7191eaf1076",
+            "events.jsonl": "d02524af402dccce1d5071eb8780bb2ae759acf1b7af3c59795bdbd8753f0388"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A3/ss_010",
+      "bundle_id": "23ab2d37-91c7-419c-b7cf-d89f458a6be3",
+      "checks": {
+        "hash_chain": {
+          "count": 159,
+          "tip": "d5a7bf9cb1468b1d2e044db3c9d3146a58cd53bb4aab863fc40693d6d6f3bdcf",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "e62da293cf47d750242727244c4eae709044a07b2b08e20712c9d5fb378fdf0d",
+            "events.jsonl": "dc6fb1eb55ed31b6aea21d822e48c019238cbc957439b486acb63bbae5e60d13"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "e62da293cf47d750242727244c4eae709044a07b2b08e20712c9d5fb378fdf0d",
+            "events.jsonl": "dc6fb1eb55ed31b6aea21d822e48c019238cbc957439b486acb63bbae5e60d13"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A3/ss_007",
+      "bundle_id": "41754fab-c30f-4a2f-945b-cd5da1b29100",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "16655567e090a6010a7ea1b0251d4173c17a267ae1a785fbec23e62852792a50",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "bfe1392594659e18ce93538e4e3d6dcd28ab6fb43a69463dda3c198d77130e58",
+            "events.jsonl": "103453c6ea062a41e36898ffcd5718dee04ec1b05781b805a001e57047ae6134"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "bfe1392594659e18ce93538e4e3d6dcd28ab6fb43a69463dda3c198d77130e58",
+            "events.jsonl": "103453c6ea062a41e36898ffcd5718dee04ec1b05781b805a001e57047ae6134"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A3/adjacent_hanoi",
+      "bundle_id": "c39650cd-4988-40c7-9143-7063378fc011",
+      "checks": {
+        "hash_chain": {
+          "count": 159,
+          "tip": "23de76c0ce9cffec54f07c5e9b78eda920db8f4556e0a7064e812d9bcddf81de",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "822c692eea2ebc7389b4129f1165910ab5ba79ca2a1cdfa072e11562d3af5106",
+            "events.jsonl": "b45212387ef390a8e7cd91680242666da996a09925a8d04174fa85721613c3be"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "822c692eea2ebc7389b4129f1165910ab5ba79ca2a1cdfa072e11562d3af5106",
+            "events.jsonl": "b45212387ef390a8e7cd91680242666da996a09925a8d04174fa85721613c3be"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "bundles/20260220_095005/seed200/A3/wildcard_match",
+      "bundle_id": "896bdbd5-9224-40b6-bcbc-7f82e8fc2d75",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "e19f24a71e27f55d2256eeffb0c8bb37b30f78ade2121834bc4fc057c52385b4",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "30abb6cc432a2cf4e9a4c8df1babb205dead86ade0f172e5baac550fb53468b1",
+            "events.jsonl": "733d2d783c7070078b14a6c67b9932b5058af6206a93ec27bc16206b964b426f"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "30abb6cc432a2cf4e9a4c8df1babb205dead86ade0f172e5baac550fb53468b1",
+            "events.jsonl": "733d2d783c7070078b14a6c67b9932b5058af6206a93ec27bc16206b964b426f"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
     }
   ],
-  "total_bundles": 39
+  "total_bundles": 45
 }

@@ -5,18 +5,15 @@
       "name": "El-Mohammady, Ahmed"
     }
   ],
-  "description": "<p>AGICE demo replay evidence bundle with 39 runs and 39 hash-chained evidence bundles. Includes signed SHA-256 manifests, governance policy artifacts, rollback/escalation case studies, and offline verification tooling.</p>",
-  "doi": "10.5281/zenodo.18678131",
+  "description": "<p>AGICE demo replay evidence bundle with 45 runs and 45 hash-chained evidence bundles. Includes signed SHA-256 manifest and offline validator.</p>",
+  "doi": "10.5281/zenodo.18710111",
   "keywords": [
     "AGICE",
     "evidence bundle",
     "ablation",
     "reproducibility",
     "hash chain",
-    "offline verification",
-    "governance",
-    "rollback",
-    "auditability"
+    "offline verification"
   ],
   "language": "eng",
   "license": "cc-by-4.0",
@@ -28,7 +25,7 @@
       "scheme": "url"
     }
   ],
-  "title": "AGICE Demo Replay — Evidence Bundle",
+  "title": "AGICE Demo Replay — Differential Tasks Pack",
   "upload_type": "dataset",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

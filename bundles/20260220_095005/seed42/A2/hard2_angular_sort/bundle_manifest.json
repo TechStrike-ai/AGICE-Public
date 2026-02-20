@@ -1,0 +1,126 @@
+{
+  "bundle_id": "4f8f79d2-cc49-4e49-94ac-c8ada07f7fa6",
+  "config_id": "ce75f2519fe580e267fb6cabfacf8278394baac0c4ae5607df6ac05dee4381c5",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "8a4a6a9f12ec518036ba03a86ad2984127441e23206be618aa275aa385e39d31",
+  "final_decision": {
+    "code": "import math\nimport sys\ninput = sys.stdin.readline\n\ndef solve():\n    n = int(input())\n    points = []\n    for i in range(n):\n        x, y = map(int, input().split())\n        angle = math.atan2(y, x)\n        points.append((angle, i + 1))\n    points.sort(key=lambda p: (p[0] + 2 * math.pi) % (2 * math.pi))  # Normalize angle to [0, 2π)\n    for _, idx in points:\n        print(idx)\n\nsolve()",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 5,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 122,
+    "events_hash_chain_tip": "e2065c95943dc5008485175de55543fe7e66a47cd86242718e9b856901914dfa"
+  },
+  "provenance": {
+    "config_path": "configs/drop4_matched_compute_stress.yaml",
+    "config_sha256": "0c9a78f5f0318f88893385beb361f987f8db53d5f1d8954666fe8bd3818c9a53",
+    "evaluated_task_ids": [
+      "hard2_angular_sort",
+      "staircase_nim",
+      "lcb_v6_004",
+      "lcb_v6_009",
+      "ss_010",
+      "ss_001",
+      "ss_002",
+      "ss_003",
+      "ss_004",
+      "ss_005",
+      "ss_006",
+      "ss_007",
+      "ss_008",
+      "ss_009",
+      "adjacent_hanoi",
+      "interval_merge_strict",
+      "stock_cooldown",
+      "count_bounded_subarrays",
+      "wildcard_match",
+      "longest_valid_parens"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260220_095005",
+    "seed_base": 42,
+    "slice_id": "gmdt_stress_v1",
+    "slice_sha256": "2010cc411e00edd7d837e5c716a9b73e0d8193e5c339545734c9108b6c1a403a",
+    "task_count": 20,
+    "task_family": "livecodebench",
+    "task_index": 0,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": true,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": true,
+      "enable_ruff_oracle": true,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 30,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 20,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "4a0225db058b94c8323b3a628a51329b7c40e939775eb4e5da0813203044a568"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "33f43e00bd91c070755e9744f5f95457d226bb6268cce2ee17a699d248e1f129"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "b72279877199612ec9846102b885d3a5136f6880d0fa8afc8aaa76b8c840dfc7"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "b83c372978f7d9e2cbb3124d71b8c5788d8a105aadf1c4d5ba6acac87f890551"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "b72279877199612ec9846102b885d3a5136f6880d0fa8afc8aaa76b8c840dfc7"
+    }
+  ],
+  "run_id": "20260220_095005",
+  "seed": 42,
+  "task_id": "hard2_angular_sort"
+}

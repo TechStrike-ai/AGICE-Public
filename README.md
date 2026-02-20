@@ -1,10 +1,10 @@
-# AGICE Demo Replay — Evidence Bundle
+# AGICE Demo Replay — Differential Tasks Pack
 
-Version: `1.0.2`
+Version: `1.0.3`
 
-DOI: `10.5281/zenodo.18678131`
+DOI: `10.5281/zenodo.18710111`
+
 Canonical repository: `https://github.com/TechStrike-ai/AGICE-Public`
-Source build repository: `https://github.com/TechStrike-ai/AGICEv3_repo`
 
 
 This archive is structured for public replay and offline integrity verification.
@@ -13,35 +13,33 @@ This archive is structured for public replay and offline integrity verification.
 
 - `bundles/` — per-run AGICE evidence bundles
 - `reports/executive-summary.csv` — paper-ready A1/A2/A3 summary
+- `reports/overall-report.md` — overall narrative report
 - `reports/trajectory-table.md` — sample A3 branching trajectory table (markdown)
 - `reports/trajectory-table.csv` — sample A3 branching trajectory table (csv)
 - `reports/replay-coverage.csv` — per-bundle replay report presence map
-- `reports/governance-demo.md` — governance/control audit walkthrough
-- `reports/rollback-case-study.csv` — governed rollback/escalation incident table
-- `reports/tamper-test.md` — intentional tamper detection demonstration
-- `reports/REPLAY_SCOPE.md` — offline replay scope boundaries
+- `reports/results-per-task.csv` — per-task solve table with round statistics
+- `reports/fairness.csv` — seed-task fairness matrix (rounds/calls parity)
+- `reports/fairness-proof.md` — fairness + no-leakage audit narrative
+- `reports/leakage-scan.csv` — hidden/private verifier leakage scan (expected/actual redaction)
+- `reports/gmdt-math-snippet.md` — code-level GMDT J-rotation implementation snippet
+- `reports/demo-replay-report.md` — offline replay report
 - `manifests/run-evidence-hashes.csv` — per-run file hashes
+- `manifests/task-evidence-hashes.csv` — per-task/per-mode aggregated evidence hashes
+- `manifests/demo-replay-manifest.json` — replay index for included demo tasks
+- `manifests/replay-report.json` — deterministic replay validation report
 - `manifests/bundle-validation-report.json` — bundle schema/hash-chain validation results
 - `manifests/report-hashes.json` — report-file hashes
-- `manifests/policy-hashes.csv` — run-to-policy hash mapping
-- `manifests/policy-artifacts.csv` — policy artifact inventory and hashes
-- `manifests/ops-provenance.json` — ops-grade provenance snapshot
-- `manifests/build-attestation.json` — signed release attestation payload
-- `manifests/build-attestation.sig` — detached signature for build attestation
 - `checksums/SHA256SUMS.txt` — signed global checksum manifest
 - `checksums/SHA256SUMS.sig` — SHA256SUMS signature
 - `checksums/SIGNING-PUBLIC-KEY.pem` — public key for offline verification
 - `verification/verify_offline.py` — offline verifier (signature + checksums + bundle integrity)
-- `demo-replay.sh` — one-command public demo replay (integrity + native rollback trace)
-- `policies/governance_policy.v1.0.1.yaml` — mission-critical governance policy
-- `policies/verifier_pack.v1.0.1.yaml` — verifier pack control specification
-- `policies/decision_function.v1.0.1.md` — arbitration and rollback decision spec
+- `demo-replay.sh` — one-command offline verification + summary replay
 
 ## Dataset Scope
 
 - Case ID: `AGICE Demo Replay`
-- Runs included: `39`
-- Bundles included: `39`
+- Runs included: `45`
+- Bundles included: `45`
 
 ## Offline Verification
 
@@ -49,16 +47,11 @@ This archive is structured for public replay and offline integrity verification.
 python verification/verify_offline.py --bundle-root . --strict
 ```
 
-## Demo Replay
-
-Run the public demo replay from the package root:
+## Offline Demo Replay
 
 ```bash
-./demo-replay.sh
+bash demo-replay.sh
 ```
-
-This executes strict offline verification and then prints the native `rollback_event` trace from:
-`bundles/20260216_150059/A3/hard2_complex_transform/events.jsonl`.
 
 ## Strict Checksum Coverage (No Extra Unhashed Files)
 
@@ -68,9 +61,7 @@ This executes strict offline verification and then prints the native `rollback_e
 python verification/verify_offline.py --bundle-root . --strict
 
 # Optional shell-level strict diff
-comm -23 \
-  <(find . -type f ! -path "./checksums/SHA256SUMS.sig" ! -path "./checksums/SHA256SUMS.txt" -printf "%P\n" | sort) \
-  <(awk '{print $2}' checksums/SHA256SUMS.txt | sort)
+comm -23   <(find . -type f ! -path "./checksums/SHA256SUMS.sig" ! -path "./checksums/SHA256SUMS.txt" -printf "%P\n" | sort)   <(awk '{print $2}' checksums/SHA256SUMS.txt | sort)
 ```
 
 ## Replay Scope Clarification
@@ -88,13 +79,3 @@ comm -23 \
 - End-to-end benchmark replay requiring caches/manifests not embedded in this archive
 
 This package is intended for **offline integrity verification and evidence auditability**. Full benchmark reruns are possible with external benchmark assets.
-
-## Governance Demonstration Entry Points
-
-- Start with `reports/governance-demo.md`
-- Inspect policy controls in `policies/`
-- Review governed incidents in `reports/rollback-case-study.csv`
-- Validate policy binding via `manifests/policy-hashes.csv`
-- Inspect native rollback event at `bundles/20260216_150059/A3/hard2_complex_transform/events.jsonl`
-- Validate per-bundle policy embedding in `bundle_manifest.json` (`provenance.policy_binding`) and `integrity.json` (`policy_binding`)
-- Review signed attestation in `manifests/build-attestation.json` and `manifests/build-attestation.sig`

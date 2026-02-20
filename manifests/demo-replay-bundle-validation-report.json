@@ -1,0 +1,1177 @@
+{
+  "pass_rate": 1.0,
+  "passed": 45,
+  "results": [
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A1/bundles/adjacent_hanoi",
+      "bundle_id": "262bb7af-5005-4279-a5e0-d695bbec36ad",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "1913f485fc6ccb0ed9631574963368d90f1ffdeb57745c740735681c73195b15",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "ae575c57b8750864d37c2388365f6ac451654af3d784b305e600ee3188d13287",
+            "events.jsonl": "5c5fdeaeca6e9590f531ecf7b8ee0b8f5e169c351dd24637f43f44693eda4935"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "ae575c57b8750864d37c2388365f6ac451654af3d784b305e600ee3188d13287",
+            "events.jsonl": "5c5fdeaeca6e9590f531ecf7b8ee0b8f5e169c351dd24637f43f44693eda4935"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A1/bundles/hard2_angular_sort",
+      "bundle_id": "7126bd50-6247-496e-83fe-8a35b37d7154",
+      "checks": {
+        "hash_chain": {
+          "count": 120,
+          "tip": "8654d0e49d7e2164772c49b3e7f8f18028291e6c15cee4ede8dbd4a4493b90b7",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "4d6089654696677dc6f03c74ecc537d7e67ffb408b84ec313ccfcd71eb2e0ab6",
+            "events.jsonl": "c3f30f45d21def55875155bb5bf7f477bca46d297dff40832e0dc1ef5981af53"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "4d6089654696677dc6f03c74ecc537d7e67ffb408b84ec313ccfcd71eb2e0ab6",
+            "events.jsonl": "c3f30f45d21def55875155bb5bf7f477bca46d297dff40832e0dc1ef5981af53"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A1/bundles/ss_007",
+      "bundle_id": "8c13232f-941c-4112-9adc-18346fd7a484",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "ebf1d22b564362483af503f8efceb7cc4e2d1feba5b78da21e26e327c26f81f7",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "fb3b8296ed267c07d766c65c8b513caf1e28ce4f139bf72d8e816200217132c1",
+            "events.jsonl": "9a9fdbe0579c0a3994f13640d310d8d21ac109d34eaa962c450b0f0ca048bd23"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "fb3b8296ed267c07d766c65c8b513caf1e28ce4f139bf72d8e816200217132c1",
+            "events.jsonl": "9a9fdbe0579c0a3994f13640d310d8d21ac109d34eaa962c450b0f0ca048bd23"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A1/bundles/ss_010",
+      "bundle_id": "aa788b47-a0f5-45a4-85a0-1b44dfd8d4b2",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "0f4f0581087d64fd8e002de3a1c24ce2797f66c021309eefa83d45d0927f53e5",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "3dd470f7a7df42601523bac905b13d391afb66c9332f7188cf6700d78a3ce022",
+            "events.jsonl": "56e84b08420403122302e2a74daca68043554a1dd519f23c327b7e2098610642"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "3dd470f7a7df42601523bac905b13d391afb66c9332f7188cf6700d78a3ce022",
+            "events.jsonl": "56e84b08420403122302e2a74daca68043554a1dd519f23c327b7e2098610642"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A1/bundles/wildcard_match",
+      "bundle_id": "09e94400-7bf0-4f4a-a11d-4f2c47804f8c",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "242e4b109f4a7b22cace674c09b0cefe31efcf4096af6cb35494ba374fb645eb",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "4ccf34cac132c33d8059da166331fb32a516b7e7febcc33e1c1b0334ce625ab1",
+            "events.jsonl": "7322f293a35bc5d1d4e0aadbe24664c09d599b7f2f760f0c8f16187d760aec77"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "4ccf34cac132c33d8059da166331fb32a516b7e7febcc33e1c1b0334ce625ab1",
+            "events.jsonl": "7322f293a35bc5d1d4e0aadbe24664c09d599b7f2f760f0c8f16187d760aec77"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A2/bundles/adjacent_hanoi",
+      "bundle_id": "ba24a37f-ceea-48dd-b0c9-19511dd299db",
+      "checks": {
+        "hash_chain": {
+          "count": 146,
+          "tip": "acbbffa211777de261f0067b54bdf33c9b7d8db1c35380fda1b1b3e051f1e548",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "2071280fc5087c3b71d95fa5db2efb3b0c506a4faa88aebdbb864b4c3b232f7e",
+            "events.jsonl": "2c6219194ee63df52a9a07bc1e4287b0dcbd52efcfc7c82a78f7eea94f2f1a1c"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "2071280fc5087c3b71d95fa5db2efb3b0c506a4faa88aebdbb864b4c3b232f7e",
+            "events.jsonl": "2c6219194ee63df52a9a07bc1e4287b0dcbd52efcfc7c82a78f7eea94f2f1a1c"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A2/bundles/hard2_angular_sort",
+      "bundle_id": "4002b4b2-c11e-45c4-b5bd-203837639a9b",
+      "checks": {
+        "hash_chain": {
+          "count": 122,
+          "tip": "656b9cd65f1bde9a940fdac2caaac26463c33ebce76048e29b7c4145c63d94a1",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "9ab3c41e2eb3934559d0e2d0d2c0b68667bffa3ea4b509fd53c2d507fd26e300",
+            "events.jsonl": "f84aa7c4e9123d29f9917e1a1764786df456beec8872aeefdd863a33cf8faa76"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "9ab3c41e2eb3934559d0e2d0d2c0b68667bffa3ea4b509fd53c2d507fd26e300",
+            "events.jsonl": "f84aa7c4e9123d29f9917e1a1764786df456beec8872aeefdd863a33cf8faa76"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A2/bundles/ss_007",
+      "bundle_id": "56811900-739f-4561-8e17-5a9ae731506b",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "9e752954d41dd23fb65dc6f2368e157a17a25bb1b6f9999ad533ae0d5bfc5002",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "68c6ca61bf4280953540cbf2a3c92e3937f819592f6133e9220f10de82a15ead",
+            "events.jsonl": "10e4dff3fc0b766a093c8ecd0e17753244e7b0bf36faa604e43390e358261676"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "68c6ca61bf4280953540cbf2a3c92e3937f819592f6133e9220f10de82a15ead",
+            "events.jsonl": "10e4dff3fc0b766a093c8ecd0e17753244e7b0bf36faa604e43390e358261676"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A2/bundles/ss_010",
+      "bundle_id": "39ede695-58bd-4b11-8b92-b2041607823d",
+      "checks": {
+        "hash_chain": {
+          "count": 146,
+          "tip": "6d61ba42543a736f4ac65beab4265dae4c10de82be5ec56ea1bc7b8909d08a4d",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "2e0ad872bf644f48892446a49ed2eed6d804cf4000199246400316fddb66a876",
+            "events.jsonl": "51ab72c999c942c9ffd9eb5733939d20a29656db642ff0083f199c008224173b"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "2e0ad872bf644f48892446a49ed2eed6d804cf4000199246400316fddb66a876",
+            "events.jsonl": "51ab72c999c942c9ffd9eb5733939d20a29656db642ff0083f199c008224173b"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A2/bundles/wildcard_match",
+      "bundle_id": "4ae95718-41c3-4fe0-b1f3-5dd66672a41f",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "d95cf61e7f2329586f91f7026bc66c77362b4b2a450df23b267b0c6db2e6f517",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "cf887a47f4579af17423e899f0db5f1cf96863ccd57991fa87fab524ac62762a",
+            "events.jsonl": "ffa65494d95c8ed4cf3ee695ec54b3706e2d8dae0036795dcf214d6f2dee95da"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "cf887a47f4579af17423e899f0db5f1cf96863ccd57991fa87fab524ac62762a",
+            "events.jsonl": "ffa65494d95c8ed4cf3ee695ec54b3706e2d8dae0036795dcf214d6f2dee95da"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A3/bundles/adjacent_hanoi",
+      "bundle_id": "5a4f32a9-4865-4e9f-962b-011588ab53a7",
+      "checks": {
+        "hash_chain": {
+          "count": 155,
+          "tip": "2671383551076fb4dbbc27783dacee0ec304d18d621e762026777adfa2522021",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "831f7e0cd3451f98ec862615c4369c110dc03aab0364c386944e9db2a1fcca69",
+            "events.jsonl": "191455b70600949713db9e6ab46bf3ba4430f32f259368144dd908eb968067b7"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "831f7e0cd3451f98ec862615c4369c110dc03aab0364c386944e9db2a1fcca69",
+            "events.jsonl": "191455b70600949713db9e6ab46bf3ba4430f32f259368144dd908eb968067b7"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A3/bundles/hard2_angular_sort",
+      "bundle_id": "67fcc7d8-c65f-43f6-9558-f5be4d787d23",
+      "checks": {
+        "hash_chain": {
+          "count": 131,
+          "tip": "6d4d099f579a2320fab6a1b29955f0857818ed1a5f939f9368ea41277a8032f0",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "b1f59878a1b5ca9c4f93eaa6eef5de5035f91c9e6face6e3c2d74f0e15d91085",
+            "events.jsonl": "3a4ad46d1a8cffd08d1f41b7ec8173be623f3a2e0b6098d9671212a21781e9e1"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "b1f59878a1b5ca9c4f93eaa6eef5de5035f91c9e6face6e3c2d74f0e15d91085",
+            "events.jsonl": "3a4ad46d1a8cffd08d1f41b7ec8173be623f3a2e0b6098d9671212a21781e9e1"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A3/bundles/ss_007",
+      "bundle_id": "50f6f7b6-1f79-4fae-b1f8-52a651bca8c8",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "931ebbbe676a60cf3adc4ce8f005ed1b005c736203f9891c66bd3e48c5ea4401",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "1e1b9b85aaf4a420f22d47c636049fe979327fb8c07721489ebae68fb49ae7c8",
+            "events.jsonl": "2123a08d756e59a7360aa224a85ebbd334a625760715dcf018f365da5b0d593e"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "1e1b9b85aaf4a420f22d47c636049fe979327fb8c07721489ebae68fb49ae7c8",
+            "events.jsonl": "2123a08d756e59a7360aa224a85ebbd334a625760715dcf018f365da5b0d593e"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A3/bundles/ss_010",
+      "bundle_id": "37e45dd4-9ad2-46b1-b68f-e09b6da43066",
+      "checks": {
+        "hash_chain": {
+          "count": 158,
+          "tip": "befeba30401bc09624a1142b4874457c371221ce2a369733cdab2f2a0e53e5ea",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "d584b8f1b58aaa2a6fa2afe622569ec94248ba9c042728d794a79784ff8520c3",
+            "events.jsonl": "a8f9f5f0bdecb62fd727ccf560b409ad4bb2cee4f14327262b1ecbfb374eecc0"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "d584b8f1b58aaa2a6fa2afe622569ec94248ba9c042728d794a79784ff8520c3",
+            "events.jsonl": "a8f9f5f0bdecb62fd727ccf560b409ad4bb2cee4f14327262b1ecbfb374eecc0"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed100/20260220_095005/A3/bundles/wildcard_match",
+      "bundle_id": "4efd7fa9-04ed-4e95-9c72-13c9413fb3c3",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "3c65545a9dbcd2b99662c6517ad132f538e0071554469285c7522c84a1a7fed8",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "9298710b5a0fe779df4710047ec2cc195991dbea7817f7e3a484709d5b8e4850",
+            "events.jsonl": "19df9047ca2e280c3ec9734639c4ee55eed37e9cb3c1a05b46a046c4ceec8340"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "9298710b5a0fe779df4710047ec2cc195991dbea7817f7e3a484709d5b8e4850",
+            "events.jsonl": "19df9047ca2e280c3ec9734639c4ee55eed37e9cb3c1a05b46a046c4ceec8340"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A1/bundles/adjacent_hanoi",
+      "bundle_id": "950932f7-4cc2-431a-8172-2220c23e6292",
+      "checks": {
+        "hash_chain": {
+          "count": 144,
+          "tip": "2eb74a8036809617c293dd053c396c9ad3cfc269a91b51b8ad9231152e9a2b5d",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "d6c192b3ec41694422bda4d5818b4d0126bd36b5ca8e6586aaa7ecc9d4c0fffe",
+            "events.jsonl": "33e87915ca4b078370996ae8ffa34512e121f14fc5919553d7627fdd2d77d704"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "d6c192b3ec41694422bda4d5818b4d0126bd36b5ca8e6586aaa7ecc9d4c0fffe",
+            "events.jsonl": "33e87915ca4b078370996ae8ffa34512e121f14fc5919553d7627fdd2d77d704"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A1/bundles/hard2_angular_sort",
+      "bundle_id": "ae6f81e3-25dc-44de-8e91-1c004a5cdadf",
+      "checks": {
+        "hash_chain": {
+          "count": 120,
+          "tip": "6f70f70876621a43350d5ffdbb1cb765cf9a2d958e2ba6618286d9ab9f67b352",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "302f44782b2e65824a8991f36720aca02cadac7e5b261b521cad9d1eb69d3adc",
+            "events.jsonl": "a8f294c1405f3af8bb749af070beb5abe1d52f7f914318a050e20632a68b007e"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "302f44782b2e65824a8991f36720aca02cadac7e5b261b521cad9d1eb69d3adc",
+            "events.jsonl": "a8f294c1405f3af8bb749af070beb5abe1d52f7f914318a050e20632a68b007e"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A1/bundles/ss_007",
+      "bundle_id": "a6dab163-7048-45d6-9a83-bac6a5932594",
+      "checks": {
+        "hash_chain": {
+          "count": 148,
+          "tip": "5c1a7c35fdc72d14e3d2a94a067e1748d69240b10d4d524c8a89db9b5e4c8ab0",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "f9916089674b3cd9547993f4117eb15e1f2704e80bc515d0e5771646a05365d0",
+            "events.jsonl": "1ef8156760d80752636bd3be98a3d0e0086bd20660e95b2459c23c7b14ee0912"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "f9916089674b3cd9547993f4117eb15e1f2704e80bc515d0e5771646a05365d0",
+            "events.jsonl": "1ef8156760d80752636bd3be98a3d0e0086bd20660e95b2459c23c7b14ee0912"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A1/bundles/ss_010",
+      "bundle_id": "2c758ebb-db06-4e51-bb94-a42d1cb7b226",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "835d200a0767bce879a9bc3a33c0cd2f3b78ad1e80ffde47f1eb2ea091b323b7",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "11c12b8a431a64e5306d43b4c05e834c1274d4ea3baf227906f2ae6feb816bc0",
+            "events.jsonl": "66dbf3e5186535cc0a71b9134c8921e496248b5ff03980811139d10e1b46323c"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "11c12b8a431a64e5306d43b4c05e834c1274d4ea3baf227906f2ae6feb816bc0",
+            "events.jsonl": "66dbf3e5186535cc0a71b9134c8921e496248b5ff03980811139d10e1b46323c"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A1/bundles/wildcard_match",
+      "bundle_id": "7497875a-8db0-46b0-81a6-8810ef756dd7",
+      "checks": {
+        "hash_chain": {
+          "count": 148,
+          "tip": "ef01d482569858debe3561857bffa636e2a0612c3704f45976b4a0208f7834b7",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "2e057e947752fd9245a482b0f2f9cfeb7a1c42edcf7ff67e8949a77ef42a1beb",
+            "events.jsonl": "e241a25672688a3e06f9822cfedd8ffc762e8ac0577278f9f8b5a85881071630"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "2e057e947752fd9245a482b0f2f9cfeb7a1c42edcf7ff67e8949a77ef42a1beb",
+            "events.jsonl": "e241a25672688a3e06f9822cfedd8ffc762e8ac0577278f9f8b5a85881071630"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A2/bundles/adjacent_hanoi",
+      "bundle_id": "8e0d4965-2c87-4ca5-a659-e3e99d51aeb9",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "7bc35e0d8b7c5a772d9b0bea1547053fb744b9ca1f43f2bfb3b56fd1198f1728",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "6f3b0af9f8b72c004315e8113b365edb5d45661ef4221407694c1538d4fbf0a3",
+            "events.jsonl": "85579cb6cd81cceeb1b0aa406b9f19821caf3b90ef4b0f6c6ca865ba56369227"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "6f3b0af9f8b72c004315e8113b365edb5d45661ef4221407694c1538d4fbf0a3",
+            "events.jsonl": "85579cb6cd81cceeb1b0aa406b9f19821caf3b90ef4b0f6c6ca865ba56369227"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A2/bundles/hard2_angular_sort",
+      "bundle_id": "41972528-205a-40a3-ac63-6b44a6569a9b",
+      "checks": {
+        "hash_chain": {
+          "count": 124,
+          "tip": "383a303473aa9735bf6878a885a2947e80452be4c832aa655a4d929bd360fc9f",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "7cab4fb8c62f34d042eeb097cf42e078889b68933e9d867a9c9ac7184e4dccd5",
+            "events.jsonl": "386375f8d97bfd3d20e67bc9c933a5dbdd65a1a992272c63aad9b49cca4ed73a"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "7cab4fb8c62f34d042eeb097cf42e078889b68933e9d867a9c9ac7184e4dccd5",
+            "events.jsonl": "386375f8d97bfd3d20e67bc9c933a5dbdd65a1a992272c63aad9b49cca4ed73a"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A2/bundles/ss_007",
+      "bundle_id": "1f5d0258-62ec-4b4e-9b50-d4f5890a7af5",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "07a9190d0d26346d7e9b91a4b6a756654ae521a45b8966a89a2c7ebfa40c38de",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "4f690ce3302aa96649885f7ea65c42596d19418ba00fbce0fec4675d44dd8d52",
+            "events.jsonl": "18bbd10c5112d3d692cafe06e9bc044229bc50ee508b6aff78a7ec8214f64d3a"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "4f690ce3302aa96649885f7ea65c42596d19418ba00fbce0fec4675d44dd8d52",
+            "events.jsonl": "18bbd10c5112d3d692cafe06e9bc044229bc50ee508b6aff78a7ec8214f64d3a"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A2/bundles/ss_010",
+      "bundle_id": "dd230561-d962-4b80-b19f-8d07d8ca80fb",
+      "checks": {
+        "hash_chain": {
+          "count": 146,
+          "tip": "9a13ec5acd1bb3ff1530314a998825ebc55896fb6fc7964eed4e383eb379f95c",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "03f006775966c456faba044e2aaa6233c7b766c856107ce589b28de60a3ac21b",
+            "events.jsonl": "b8c3830004690ccd46536099fa96be76aec588364653d1add662394bf1bcc047"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "03f006775966c456faba044e2aaa6233c7b766c856107ce589b28de60a3ac21b",
+            "events.jsonl": "b8c3830004690ccd46536099fa96be76aec588364653d1add662394bf1bcc047"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A2/bundles/wildcard_match",
+      "bundle_id": "f56f019e-33fe-46ec-a58d-90aefea08c64",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "95a32951754791f84e354aafb568bc98dcb386cca03e543148b64bacaef78363",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "24c658f288e93f7713627b6630972aec8cc9b9a42824ada32710e65d29c75b86",
+            "events.jsonl": "f9dca2ccdb126a0c3d5f66e7ddd889fa0bf5b47c384af47926b8c799e3b734df"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "24c658f288e93f7713627b6630972aec8cc9b9a42824ada32710e65d29c75b86",
+            "events.jsonl": "f9dca2ccdb126a0c3d5f66e7ddd889fa0bf5b47c384af47926b8c799e3b734df"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A3/bundles/adjacent_hanoi",
+      "bundle_id": "c39650cd-4988-40c7-9143-7063378fc011",
+      "checks": {
+        "hash_chain": {
+          "count": 159,
+          "tip": "23de76c0ce9cffec54f07c5e9b78eda920db8f4556e0a7064e812d9bcddf81de",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "822c692eea2ebc7389b4129f1165910ab5ba79ca2a1cdfa072e11562d3af5106",
+            "events.jsonl": "b45212387ef390a8e7cd91680242666da996a09925a8d04174fa85721613c3be"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "822c692eea2ebc7389b4129f1165910ab5ba79ca2a1cdfa072e11562d3af5106",
+            "events.jsonl": "b45212387ef390a8e7cd91680242666da996a09925a8d04174fa85721613c3be"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A3/bundles/hard2_angular_sort",
+      "bundle_id": "93834159-b024-4812-bc1d-e9b2a90f0ab3",
+      "checks": {
+        "hash_chain": {
+          "count": 132,
+          "tip": "e2077fae6b821febb7d26d5646e35d785fe8d3122b77f1fc106dca13277a44e6",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "d638721e9de52b0079d1d1e2cff15b0e5a80acf18fcecb5483e3c7191eaf1076",
+            "events.jsonl": "d02524af402dccce1d5071eb8780bb2ae759acf1b7af3c59795bdbd8753f0388"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "d638721e9de52b0079d1d1e2cff15b0e5a80acf18fcecb5483e3c7191eaf1076",
+            "events.jsonl": "d02524af402dccce1d5071eb8780bb2ae759acf1b7af3c59795bdbd8753f0388"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A3/bundles/ss_007",
+      "bundle_id": "41754fab-c30f-4a2f-945b-cd5da1b29100",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "16655567e090a6010a7ea1b0251d4173c17a267ae1a785fbec23e62852792a50",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "bfe1392594659e18ce93538e4e3d6dcd28ab6fb43a69463dda3c198d77130e58",
+            "events.jsonl": "103453c6ea062a41e36898ffcd5718dee04ec1b05781b805a001e57047ae6134"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "bfe1392594659e18ce93538e4e3d6dcd28ab6fb43a69463dda3c198d77130e58",
+            "events.jsonl": "103453c6ea062a41e36898ffcd5718dee04ec1b05781b805a001e57047ae6134"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A3/bundles/ss_010",
+      "bundle_id": "23ab2d37-91c7-419c-b7cf-d89f458a6be3",
+      "checks": {
+        "hash_chain": {
+          "count": 159,
+          "tip": "d5a7bf9cb1468b1d2e044db3c9d3146a58cd53bb4aab863fc40693d6d6f3bdcf",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "e62da293cf47d750242727244c4eae709044a07b2b08e20712c9d5fb378fdf0d",
+            "events.jsonl": "dc6fb1eb55ed31b6aea21d822e48c019238cbc957439b486acb63bbae5e60d13"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "e62da293cf47d750242727244c4eae709044a07b2b08e20712c9d5fb378fdf0d",
+            "events.jsonl": "dc6fb1eb55ed31b6aea21d822e48c019238cbc957439b486acb63bbae5e60d13"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed200/20260220_095005/A3/bundles/wildcard_match",
+      "bundle_id": "896bdbd5-9224-40b6-bcbc-7f82e8fc2d75",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "e19f24a71e27f55d2256eeffb0c8bb37b30f78ade2121834bc4fc057c52385b4",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "30abb6cc432a2cf4e9a4c8df1babb205dead86ade0f172e5baac550fb53468b1",
+            "events.jsonl": "733d2d783c7070078b14a6c67b9932b5058af6206a93ec27bc16206b964b426f"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "30abb6cc432a2cf4e9a4c8df1babb205dead86ade0f172e5baac550fb53468b1",
+            "events.jsonl": "733d2d783c7070078b14a6c67b9932b5058af6206a93ec27bc16206b964b426f"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A1/bundles/adjacent_hanoi",
+      "bundle_id": "cbc7b08c-2bbd-4973-8ce5-eee7e3f5b538",
+      "checks": {
+        "hash_chain": {
+          "count": 145,
+          "tip": "b552dd62209b088774bc4b9b7abb4f949a1e440519573cf61a59e1866d741813",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "e21daa334385b3822b80f2a5b59768151c62f59238aecc26d94a968418ca9743",
+            "events.jsonl": "863c8c77469f8a5431110feb8e076a8d6f71025110a22c02a0d8e9d3ad5c7826"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "e21daa334385b3822b80f2a5b59768151c62f59238aecc26d94a968418ca9743",
+            "events.jsonl": "863c8c77469f8a5431110feb8e076a8d6f71025110a22c02a0d8e9d3ad5c7826"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A1/bundles/hard2_angular_sort",
+      "bundle_id": "e6c30a0a-b79f-4888-ba7c-7bef90a2bb17",
+      "checks": {
+        "hash_chain": {
+          "count": 120,
+          "tip": "a878857fc760b5b3fcb51593a750b7a1c296052b12d45f6f75ed51c4ce17cbb6",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "2a695bcaa63235e9b2d8457029ef3b3ae3b500eec322e89d0f7a590c65167f6a",
+            "events.jsonl": "d5a044a0d6d078394a4e67034248a1aaf389f03491882ef208044757135fb7a2"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "2a695bcaa63235e9b2d8457029ef3b3ae3b500eec322e89d0f7a590c65167f6a",
+            "events.jsonl": "d5a044a0d6d078394a4e67034248a1aaf389f03491882ef208044757135fb7a2"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A1/bundles/ss_007",
+      "bundle_id": "319c74dd-225a-4766-8323-b33a626b2854",
+      "checks": {
+        "hash_chain": {
+          "count": 148,
+          "tip": "0763cb0f30e7d15ed89f1cd9e109965932ed6713d7d6dd992b2477a532fb6d7d",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "17c53fd74b8e6f4dcac97a0d39180488e0100eed8ea8c5aadcad9389bcab2a1f",
+            "events.jsonl": "439f942232ab9b221094f8ba2cc84a969841956d54d9a58da5ffcda218bf2f0f"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "17c53fd74b8e6f4dcac97a0d39180488e0100eed8ea8c5aadcad9389bcab2a1f",
+            "events.jsonl": "439f942232ab9b221094f8ba2cc84a969841956d54d9a58da5ffcda218bf2f0f"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A1/bundles/ss_010",
+      "bundle_id": "6dcd17a2-b145-4643-8abe-1dc3bd84b6ea",
+      "checks": {
+        "hash_chain": {
+          "count": 142,
+          "tip": "c9355d9417fd41ed106689fb8bcd1fcbc6bee03bfc2332e70297e0adc7695206",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "1fb1612ef9e806049ddf199a6f520efe6b328726f1b486953b16cef2b3c0a709",
+            "events.jsonl": "486f8533458e15cdafe4d4f6f58c6edf4b7840848b13789fc89272bd7bbde108"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "1fb1612ef9e806049ddf199a6f520efe6b328726f1b486953b16cef2b3c0a709",
+            "events.jsonl": "486f8533458e15cdafe4d4f6f58c6edf4b7840848b13789fc89272bd7bbde108"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A1/bundles/wildcard_match",
+      "bundle_id": "67e691b7-c432-48ac-ae74-ff55edf8f172",
+      "checks": {
+        "hash_chain": {
+          "count": 148,
+          "tip": "3de4db33fc36ff0faf0d12922dc61a0fbe85eb899e479895ccc7e8c0d2b2de5f",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "fc7a7129941f95821dc5851a77f33aa52d7064f4f11667ed196231cf779e1a7a",
+            "events.jsonl": "f4e3eb8359a694bf300eed50e50302905537460118e7f4fd2d791348d2b2d815"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "fc7a7129941f95821dc5851a77f33aa52d7064f4f11667ed196231cf779e1a7a",
+            "events.jsonl": "f4e3eb8359a694bf300eed50e50302905537460118e7f4fd2d791348d2b2d815"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/adjacent_hanoi",
+      "bundle_id": "cf3213f3-78b9-4402-9efa-aceb04dc5132",
+      "checks": {
+        "hash_chain": {
+          "count": 148,
+          "tip": "83edd2947a41df32ce061e62482aa18c21125e8416e60fd1d34593a32240a5c4",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "948c6c0f4a5b57a92c1ddcd17bb0df7777dc3126c1ff8fa76850eb0f565f71f6",
+            "events.jsonl": "b5bac3eca68017e3d2e1cc79b953d144e2adf6df29012c5c871287a2cc24249f"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "948c6c0f4a5b57a92c1ddcd17bb0df7777dc3126c1ff8fa76850eb0f565f71f6",
+            "events.jsonl": "b5bac3eca68017e3d2e1cc79b953d144e2adf6df29012c5c871287a2cc24249f"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/hard2_angular_sort",
+      "bundle_id": "4f8f79d2-cc49-4e49-94ac-c8ada07f7fa6",
+      "checks": {
+        "hash_chain": {
+          "count": 122,
+          "tip": "e2065c95943dc5008485175de55543fe7e66a47cd86242718e9b856901914dfa",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "b692ab718eb87e67670b3b5dd8a23626543a23ea2db9179b25ea4a17ffa51454",
+            "events.jsonl": "2eaff6210fd0575b02c5bcecc3a9542bd18bca272fbb9fe94db0a51f49e8c55c"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "b692ab718eb87e67670b3b5dd8a23626543a23ea2db9179b25ea4a17ffa51454",
+            "events.jsonl": "2eaff6210fd0575b02c5bcecc3a9542bd18bca272fbb9fe94db0a51f49e8c55c"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/ss_007",
+      "bundle_id": "a0a21b0e-daf9-4f44-aa09-11c5b7383f89",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "8c6a32970606989bc586fbe37dda63e1d76f87541997c4c8f661f418d22744e2",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "5795778e3f01f2acc821a72a67794918f7f1f10a84d90bca28fe1c41b484f58a",
+            "events.jsonl": "6a9e237b98eee4da2382293ea5e636ec6a867303200299e407472292efb3309b"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "5795778e3f01f2acc821a72a67794918f7f1f10a84d90bca28fe1c41b484f58a",
+            "events.jsonl": "6a9e237b98eee4da2382293ea5e636ec6a867303200299e407472292efb3309b"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/ss_010",
+      "bundle_id": "12cd200f-bbcf-4d17-9b0a-88be46e9e191",
+      "checks": {
+        "hash_chain": {
+          "count": 143,
+          "tip": "72d93aaa50e6845d9ebd3135e44a83bff2a4d42b4217ce34e71299e2f5b557d0",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "7af081c1c60771bf2ab2a1b82c68f6e12131d193f779bc27e61ee68713726b6a",
+            "events.jsonl": "b6f4fa6b7b938f505c38df180cb31cfa947759521445fb14c7dbdee3ca4b7de0"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "7af081c1c60771bf2ab2a1b82c68f6e12131d193f779bc27e61ee68713726b6a",
+            "events.jsonl": "b6f4fa6b7b938f505c38df180cb31cfa947759521445fb14c7dbdee3ca4b7de0"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/wildcard_match",
+      "bundle_id": "71ee2990-a55d-4ffd-965d-aa5ebaedca8c",
+      "checks": {
+        "hash_chain": {
+          "count": 152,
+          "tip": "169816e5b3a02f85f163fde5e70c5e635381987a6a4f9e23999bbf25575757ed",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "1a4712eac151a1da1ef24f20bdf0d4eb16d71a7e5a09ddbf3be68fa822a0421b",
+            "events.jsonl": "c56429aa858c4fa1ce69ddc58994d6789d271118ae0f9e2cefb698c909fa7529"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "1a4712eac151a1da1ef24f20bdf0d4eb16d71a7e5a09ddbf3be68fa822a0421b",
+            "events.jsonl": "c56429aa858c4fa1ce69ddc58994d6789d271118ae0f9e2cefb698c909fa7529"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A3/bundles/adjacent_hanoi",
+      "bundle_id": "fa3749be-71ec-41fd-9ac8-50bf3a7f5daf",
+      "checks": {
+        "hash_chain": {
+          "count": 161,
+          "tip": "8f39a66f89d7f79b4aac6f328ab95f0a4748a03f6114fee0b1bd503fe3c3c32c",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "76073b64b01c669d79f35d6a53b7e00f091f83714611ac141849536c4a3730dd",
+            "events.jsonl": "8cef86ccb3bea376f0f41c67613d50d23bf752a0a067418cd7d502a90db36fae"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "76073b64b01c669d79f35d6a53b7e00f091f83714611ac141849536c4a3730dd",
+            "events.jsonl": "8cef86ccb3bea376f0f41c67613d50d23bf752a0a067418cd7d502a90db36fae"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "adjacent_hanoi"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A3/bundles/hard2_angular_sort",
+      "bundle_id": "6ded3fb8-b112-4705-8e1b-4e097c23a651",
+      "checks": {
+        "hash_chain": {
+          "count": 133,
+          "tip": "da14fb7a9f1c53b6dc3c309003edc7cc1d3224b2aad1cb43a69847cd5876c576",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "2a6590b7c5bb855903cd82e5dd95af7c757b8d4100dabce9ba4ccf9f6f381230",
+            "events.jsonl": "226a2701d6af6e17f861924b4a68c502bc043f643b99fe1c84c754e5744b90ad"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "2a6590b7c5bb855903cd82e5dd95af7c757b8d4100dabce9ba4ccf9f6f381230",
+            "events.jsonl": "226a2701d6af6e17f861924b4a68c502bc043f643b99fe1c84c754e5744b90ad"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "hard2_angular_sort"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A3/bundles/ss_007",
+      "bundle_id": "ac687b44-2cf4-4479-8455-82a470cf84d7",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "ac78c4ed78579cde3b658e21de1477656d275142dc58b6396f4d38732d39bbf2",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "de82c41883a51e4a32656e0f08cf247110e8456b2edeabce8a0735f493334800",
+            "events.jsonl": "f8ee549499f083608fe693691f3c80695f0ba0b32b03425f0a2414e0f5f43385"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "de82c41883a51e4a32656e0f08cf247110e8456b2edeabce8a0735f493334800",
+            "events.jsonl": "f8ee549499f083608fe693691f3c80695f0ba0b32b03425f0a2414e0f5f43385"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_007"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A3/bundles/ss_010",
+      "bundle_id": "29f749b9-8b4d-4fdc-91f3-b3550a400611",
+      "checks": {
+        "hash_chain": {
+          "count": 159,
+          "tip": "39b6e067118d48124425cf58eb19219ccc8a74566ef96784480bf72f84f0b71b",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "576958c26613b277038f593f00f49d089b77a0dc99e42b2208e22f743ee1c843",
+            "events.jsonl": "e01aa484241905646b1981f51174560083bdfcc9e7916db0f7eed04639bba896"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "576958c26613b277038f593f00f49d089b77a0dc99e42b2208e22f743ee1c843",
+            "events.jsonl": "e01aa484241905646b1981f51174560083bdfcc9e7916db0f7eed04639bba896"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "ss_010"
+    },
+    {
+      "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A3/bundles/wildcard_match",
+      "bundle_id": "866bf9fe-6476-4b72-a90c-4fc71116bf6b",
+      "checks": {
+        "hash_chain": {
+          "count": 165,
+          "tip": "496cfbbef88a4a573fdfdbe3ead47d1ffb431a02b38c023131c4aa0b494d5387",
+          "valid": true
+        },
+        "integrity_file_hashes": {
+          "actual": {
+            "bundle_manifest.json": "620a787953b6453a09e724d5801e00084e552732ec43b79f23ff5d0a89b812ea",
+            "events.jsonl": "dac7701a89fc056048f649e6debef5fc94cc765c1be67445b3fbebf6d7cd25ba"
+          },
+          "events_match": true,
+          "manifest_match": true,
+          "recorded": {
+            "bundle_manifest.json": "620a787953b6453a09e724d5801e00084e552732ec43b79f23ff5d0a89b812ea",
+            "events.jsonl": "dac7701a89fc056048f649e6debef5fc94cc765c1be67445b3fbebf6d7cd25ba"
+          }
+        },
+        "manifest": "ok"
+      },
+      "status": "PASS",
+      "task_id": "wildcard_match"
+    }
+  ],
+  "total_bundles": 45
+}

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "AGICE Demo Replay"
 type: software
-doi: "10.5281/zenodo.18678131"
+doi: "10.5281/zenodo.18710111"
 url: "https://github.com/TechStrike-ai/AGICE-Public"
 repository-code: "https://github.com/TechStrike-ai/AGICE-Public"
 license: "CC-BY-4.0 AND MIT"

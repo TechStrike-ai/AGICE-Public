@@ -1,0 +1,12 @@
+{
+  "bundle_id": "cf3213f3-78b9-4402-9efa-aceb04dc5132",
+  "content_hash": "d1af3faed06ce189b37cecec7b349b5ae0a5764343706cab691d6544e84b7a32",
+  "files": {
+    "bundle_manifest.json": "948c6c0f4a5b57a92c1ddcd17bb0df7777dc3126c1ff8fa76850eb0f565f71f6",
+    "events.jsonl": "b5bac3eca68017e3d2e1cc79b953d144e2adf6df29012c5c871287a2cc24249f"
+  },
+  "log_anchor": null,
+  "run_id": "20260220_095005",
+  "signature": null,
+  "task_id": "adjacent_hanoi"
+}
