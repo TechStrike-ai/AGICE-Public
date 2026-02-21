@@ -1,8 +1,8 @@
 # AGICE Demo Replay — Differential Tasks Pack
 
-Version: `1.0.3`
+Version: `1.0.4`
 
-DOI: `10.5281/zenodo.18710111`
+DOI: `10.5281/zenodo.18720648`
 
 Canonical repository: `https://github.com/TechStrike-ai/AGICE-Public`
 

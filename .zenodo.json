@@ -6,7 +6,7 @@
     }
   ],
   "description": "<p>AGICE demo replay evidence bundle with 45 runs and 45 hash-chained evidence bundles. Includes signed SHA-256 manifest and offline validator.</p>",
-  "doi": "10.5281/zenodo.18710111",
+  "doi": "10.5281/zenodo.18720648",
   "keywords": [
     "AGICE",
     "evidence bundle",
@@ -27,5 +27,5 @@
   ],
   "title": "AGICE Demo Replay — Differential Tasks Pack",
   "upload_type": "dataset",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
