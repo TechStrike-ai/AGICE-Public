@@ -1,0 +1,126 @@
+{
+  "bundle_id": "36793ae6-71fc-4ca6-b0fd-fa0cd91579a4",
+  "config_id": "8107a4ee00d8f96c547e1352f19a624eb5a553082d8e48f0837458f48641145c",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "3de822d4ca95946019170c88702d0b78674321f444b06f0e7678c09df57f3332",
+  "final_decision": {
+    "code": "import sys\nimport re\n\nt = int(sys.stdin.readline().strip())\n\nfor _ in range(t):\n    line = sys.stdin.readline().strip().split('|')[0]  # Ignore anything after '|'\n    numbers = list(map(int, re.findall(r'-?\\d+', line)))\n\n    if 'has' in line and 'buys' in line:\n        N, M = numbers\n        result = N + M  # Pattern 1\n    elif 'had' in line and 'gave' in line:\n        N, M = numbers\n        result = N - M if M <= N else 'INVALID'  # Pattern 2\n    elif 'has' in line and 'gives' in line:\n        N, M = numbers\n        result = N - M if M <= N else 'INVALID'  # Pattern 3\n    else:\n        result = 'INVALID'  # For unexpected patterns\n    print(result)",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 5,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 151,
+    "events_hash_chain_tip": "72678e60a2ed6de7c3e0c8b09a652b206c19ad9980cbc102f629e3a63fa855db"
+  },
+  "provenance": {
+    "config_path": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/configs/custom_failures_allmodefail_wider_drop5_nostarve_fairstable.yaml",
+    "config_sha256": "f02181616444ee11c4d239725d84c1434a795ae59734dcd698053576ef16370f",
+    "evaluated_task_ids": [
+      "rf_mwp_000150",
+      "rf_mwp_000151",
+      "rf_mwp_000152",
+      "rf_mwp_000153",
+      "rf_mwp_000154",
+      "rf_mwp_000155",
+      "rf_mwp_000156",
+      "rf_mwp_000157",
+      "rf_mwp_000158",
+      "rf_mwp_000159"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260305_145803",
+    "seed_base": 42,
+    "slice_id": "chunks_allmodefail_wider_drop5_remaining_seed42_fairstable_v1/chunk_002.jsonl",
+    "slice_sha256": "eeecbe4e0f582be79c93da5fc9612b04e7d759d8e3138bfec4d146c052bdaa9e",
+    "task_count": 10,
+    "task_family": "custom_failures",
+    "task_index": 2,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "variant_id": "v0_base",
+    "variant_index": 0,
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": false,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": false,
+      "enable_ruff_oracle": false,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 20,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 10,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "2aa5b12175abbc543e04b81e910384193633f5c6b7aec576963ab3f20b21f550"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "cf0fd59dafd75aadf92044363c2a3ceb71561064d420ea6f37e820c5f78b31c7"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "dd881de5aa25d2d63af761fa30ed2a853e2b02445f9d0954b2952f5769a60b84"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "dd881de5aa25d2d63af761fa30ed2a853e2b02445f9d0954b2952f5769a60b84"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "b5723298e6ec9112e7dbde1bdd9d22b95d9e3606e65036750ba774413975d676"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "50c05c722a34eb2d5e301666548be2da48c6459ea1108de846647b47b05087f6"
+    }
+  ],
+  "run_id": "20260305_145803",
+  "seed": 42,
+  "task_id": "rf_mwp_000152__v0_base"
+}

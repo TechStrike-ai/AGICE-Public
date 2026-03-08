@@ -1,0 +1,134 @@
+{
+  "bundle_id": "5a4f32a9-4865-4e9f-962b-011588ab53a7",
+  "config_id": "a056e33773a0bdbb593e56a7cf47f885f67ff5ebe670a8aa3dbdf574bd622513",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "8a4a6a9f12ec518036ba03a86ad2984127441e23206be618aa275aa385e39d31",
+  "final_decision": {
+    "code": "def hanoi_adjacent(n):\n    if n == 1:\n        return 2\n    else:\n        return 3 * hanoi_adjacent(n - 1) + 2\n\nimport sys\n\nn = int(sys.stdin.read().strip())\nprint(hanoi_adjacent(n))",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 5,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 155,
+    "events_hash_chain_tip": "2671383551076fb4dbbc27783dacee0ec304d18d621e762026777adfa2522021"
+  },
+  "provenance": {
+    "config_path": "configs/drop4_matched_compute_stress.yaml",
+    "config_sha256": "0c9a78f5f0318f88893385beb361f987f8db53d5f1d8954666fe8bd3818c9a53",
+    "evaluated_task_ids": [
+      "hard2_angular_sort",
+      "staircase_nim",
+      "lcb_v6_004",
+      "lcb_v6_009",
+      "ss_010",
+      "ss_001",
+      "ss_002",
+      "ss_003",
+      "ss_004",
+      "ss_005",
+      "ss_006",
+      "ss_007",
+      "ss_008",
+      "ss_009",
+      "adjacent_hanoi",
+      "interval_merge_strict",
+      "stock_cooldown",
+      "count_bounded_subarrays",
+      "wildcard_match",
+      "longest_valid_parens"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260220_095005",
+    "seed_base": 100,
+    "slice_id": "gmdt_stress_v1",
+    "slice_sha256": "2010cc411e00edd7d837e5c716a9b73e0d8193e5c339545734c9108b6c1a403a",
+    "task_count": 20,
+    "task_family": "livecodebench",
+    "task_index": 14,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": true,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": true,
+      "enable_ruff_oracle": true,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 30,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 20,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 0.8888888888888888,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "1762e3409ffb91584b6e0125d3d9e60a1bf551fa65b3740943a81bb179fd3366"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.7777777777777778,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "8998b15f9d1dc866de4af5d4900d2561ee73e238a841885ed58e46418c7df649"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.8888888888888888,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "2cec7130b3d43ad26b381acb2f3675210a6c18e52ea5c4b73ec107f95109e57f"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "minus_i",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "d97c35dfcbec1f5d46f51f8ef430d3204d29250f970b85a7fcae2b2771aa40bf"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "d97c35dfcbec1f5d46f51f8ef430d3204d29250f970b85a7fcae2b2771aa40bf"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "d97c35dfcbec1f5d46f51f8ef430d3204d29250f970b85a7fcae2b2771aa40bf"
+    }
+  ],
+  "run_id": "20260220_095005",
+  "seed": 100,
+  "task_id": "adjacent_hanoi"
+}

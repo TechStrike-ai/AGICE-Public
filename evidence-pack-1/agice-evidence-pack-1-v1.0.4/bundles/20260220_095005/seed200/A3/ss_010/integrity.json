@@ -1,0 +1,12 @@
+{
+  "bundle_id": "23ab2d37-91c7-419c-b7cf-d89f458a6be3",
+  "content_hash": "10896846d4eb62a57a3ee29ab7bf03b7b1bf69538e2409777f2e5e7a4b385ed0",
+  "files": {
+    "bundle_manifest.json": "e62da293cf47d750242727244c4eae709044a07b2b08e20712c9d5fb378fdf0d",
+    "events.jsonl": "dc6fb1eb55ed31b6aea21d822e48c019238cbc957439b486acb63bbae5e60d13"
+  },
+  "log_anchor": null,
+  "run_id": "20260220_095005",
+  "signature": null,
+  "task_id": "ss_010"
+}

@@ -1,0 +1,12 @@
+{
+  "bundle_id": "06ccfa91-671d-46a3-9d47-1d7853e1798b",
+  "content_hash": "b5b5edef0e5dac9a70b635e6d9d46d4a2a7d6b2e9a1f6069d855d9e6211661ae",
+  "files": {
+    "bundle_manifest.json": "0deeb7386fcbdb0a2e1f0ea4ad719aef759e7ac029879b10995fbed42874964d",
+    "events.jsonl": "5791d5c627afa2f34cfef7357aecd4a5d59d4d058b73112450bf115f296cc48e"
+  },
+  "log_anchor": null,
+  "run_id": "20260305_145803",
+  "signature": null,
+  "task_id": "rf_mwp_000153__v0_base"
+}

@@ -1,0 +1,134 @@
+{
+  "bundle_id": "319c74dd-225a-4766-8323-b33a626b2854",
+  "config_id": "4d0ac33f51dc421f63425c5057d0bf8e6b5da093d5a52e762a56076d075405f6",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "8a4a6a9f12ec518036ba03a86ad2984127441e23206be618aa275aa385e39d31",
+  "final_decision": {
+    "code": "from collections import Counter\n\ndef min_intervals(tasks, n):\n    task_counts = Counter(tasks)\n    max_count = max(task_counts.values())\n    max_tasks = sum(1 for count in task_counts.values() if count == max_count)\n    # Calculate the minimum time needed\n    intervals = (max_count - 1) * (n + 1) + max_tasks\n    # Adjust for cases where tasks can fit in the available slots\n    return max(intervals, len(tasks))\n\ndef main():\n    import sys\n    input = sys.stdin.read\n    data = input().splitlines()\n    m = int(data[0])\n    tasks = data[1].split()\n    n = int(data[2])\n    result = min_intervals(tasks, n)\n    print(result)\n\nif __name__ == '__main__':\n    main()",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 5,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 148,
+    "events_hash_chain_tip": "0763cb0f30e7d15ed89f1cd9e109965932ed6713d7d6dd992b2477a532fb6d7d"
+  },
+  "provenance": {
+    "config_path": "configs/drop4_matched_compute_stress.yaml",
+    "config_sha256": "0c9a78f5f0318f88893385beb361f987f8db53d5f1d8954666fe8bd3818c9a53",
+    "evaluated_task_ids": [
+      "hard2_angular_sort",
+      "staircase_nim",
+      "lcb_v6_004",
+      "lcb_v6_009",
+      "ss_010",
+      "ss_001",
+      "ss_002",
+      "ss_003",
+      "ss_004",
+      "ss_005",
+      "ss_006",
+      "ss_007",
+      "ss_008",
+      "ss_009",
+      "adjacent_hanoi",
+      "interval_merge_strict",
+      "stock_cooldown",
+      "count_bounded_subarrays",
+      "wildcard_match",
+      "longest_valid_parens"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260220_095005",
+    "seed_base": 42,
+    "slice_id": "gmdt_stress_v1",
+    "slice_sha256": "2010cc411e00edd7d837e5c716a9b73e0d8193e5c339545734c9108b6c1a403a",
+    "task_count": 20,
+    "task_family": "livecodebench",
+    "task_index": 11,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": true,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": true,
+      "enable_ruff_oracle": true,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 30,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 20,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "3896745f9a5d2a73f44b11e8e3c3849704bdd4c64033ba3f452b8488c9d97465"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "8d06c22a2dcdb1028827ffeb1ee62f7904605844c9f5087ee63e18d41bbcadbe"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "8d06c22a2dcdb1028827ffeb1ee62f7904605844c9f5087ee63e18d41bbcadbe"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "8d06c22a2dcdb1028827ffeb1ee62f7904605844c9f5087ee63e18d41bbcadbe"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "4d34d7dc9dc678c99b31b9becdf09bd6e1a91c5d794e849a4e67503afd285643"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "4d34d7dc9dc678c99b31b9becdf09bd6e1a91c5d794e849a4e67503afd285643"
+    }
+  ],
+  "run_id": "20260220_095005",
+  "seed": 42,
+  "task_id": "ss_007"
+}

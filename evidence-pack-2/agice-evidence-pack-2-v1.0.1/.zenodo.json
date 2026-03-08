@@ -1,0 +1,31 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "El-Mohammady, Ahmed"
+    }
+  ],
+  "description": "<p>Agice evidence pack 2. Contains AGICE demo replay evidence generated on testing cases referenced from arXiv:2602.06176, with 180 runs, 180 hash-chained bundles, signed SHA-256 manifest, and offline verification tooling.</p>",
+  "keywords": [
+    "AGICE",
+    "evidence bundle",
+    "ablation",
+    "reproducibility",
+    "hash chain",
+    "offline verification",
+    "arXiv:2602.06176"
+  ],
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/TechStrike-ai/AGICE-Public",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "title": "Agice evidence pack 2",
+  "upload_type": "dataset",
+  "version": "1.0.1"
+}

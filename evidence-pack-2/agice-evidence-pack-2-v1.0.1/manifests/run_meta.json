@@ -1,0 +1,23 @@
+{
+  "schema_version": "agice-evidence-run-meta.v1",
+  "pack_name": "agice-evidence-pack-2-v1.0.1",
+  "source_branch": "further-testing",
+  "code_commit": "231130138905a7d8d4b9d79e9068b269e0cae324",
+  "slice_id": "suite_all_waves_allmodefail_v1",
+  "seeds": [
+    42
+  ],
+  "config_hashes": [
+    {
+      "path": "configs/custom_failures_allmodefail_wider_drop5_nostarve_fairstable.yaml",
+      "sha256": "f02181616444ee11c4d239725d84c1434a795ae59734dcd698053576ef16370f"
+    }
+  ],
+  "tooling": {
+    "verify_offline": "verification/verify_offline.py",
+    "demo_replay": "demo-replay.sh",
+    "replay_summary": "verification/replay_summary.py"
+  },
+  "paper_reference": "arXiv:2602.06176",
+  "notes": "Paper-oriented custom failures evidence pack produced from further-testing branch."
+}

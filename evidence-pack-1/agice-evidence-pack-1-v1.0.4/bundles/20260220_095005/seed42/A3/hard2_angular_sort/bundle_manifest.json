@@ -1,0 +1,126 @@
+{
+  "bundle_id": "6ded3fb8-b112-4705-8e1b-4e097c23a651",
+  "config_id": "a056e33773a0bdbb593e56a7cf47f885f67ff5ebe670a8aa3dbdf574bd622513",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "8a4a6a9f12ec518036ba03a86ad2984127441e23206be618aa275aa385e39d31",
+  "final_decision": {
+    "code": "import math\nimport sys\ninput = sys.stdin.readline\n\ndef solve():\n    n = int(input())\n    points = []\n    for i in range(n):\n        x, y = map(int, input().split())\n        angle = math.atan2(y, x)\n        points.append((angle, i + 1))\n    points.sort(key=lambda p: (p[0] + 2 * math.pi) % (2 * math.pi))  # Normalize angle to [0, 2π)\n    out = []\n    for _, idx in points:\n        out.append(str(idx))\n    print('\\n'.join(out))\n\nsolve()",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 5,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 133,
+    "events_hash_chain_tip": "da14fb7a9f1c53b6dc3c309003edc7cc1d3224b2aad1cb43a69847cd5876c576"
+  },
+  "provenance": {
+    "config_path": "configs/drop4_matched_compute_stress.yaml",
+    "config_sha256": "0c9a78f5f0318f88893385beb361f987f8db53d5f1d8954666fe8bd3818c9a53",
+    "evaluated_task_ids": [
+      "hard2_angular_sort",
+      "staircase_nim",
+      "lcb_v6_004",
+      "lcb_v6_009",
+      "ss_010",
+      "ss_001",
+      "ss_002",
+      "ss_003",
+      "ss_004",
+      "ss_005",
+      "ss_006",
+      "ss_007",
+      "ss_008",
+      "ss_009",
+      "adjacent_hanoi",
+      "interval_merge_strict",
+      "stock_cooldown",
+      "count_bounded_subarrays",
+      "wildcard_match",
+      "longest_valid_parens"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260220_095005",
+    "seed_base": 42,
+    "slice_id": "gmdt_stress_v1",
+    "slice_sha256": "2010cc411e00edd7d837e5c716a9b73e0d8193e5c339545734c9108b6c1a403a",
+    "task_count": 20,
+    "task_family": "livecodebench",
+    "task_index": 0,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": true,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": true,
+      "enable_ruff_oracle": true,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 30,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 20,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "4a0225db058b94c8323b3a628a51329b7c40e939775eb4e5da0813203044a568"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "minus_i",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "d14cdae0d39eec3a1b2442660c28db169d41ad4d1efe6f5018380e6eae720367"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "92d9af42ee4307f333c0078a8581e1d1c6808f17d355fb3217399019ea9f4d33"
+    },
+    {
+      "hard_passed": false,
+      "loss": 0.8181818181818182,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "92d9af42ee4307f333c0078a8581e1d1c6808f17d355fb3217399019ea9f4d33"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "ddb64f61d6a15655d2694847ba3016b3844d39ab84850fa210a2d8887f836fe5"
+    }
+  ],
+  "run_id": "20260220_095005",
+  "seed": 42,
+  "task_id": "hard2_angular_sort"
+}

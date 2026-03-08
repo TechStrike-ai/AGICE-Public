@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Agice evidence pack 2"
+type: software
+url: "https://github.com/TechStrike-ai/AGICE-Public"
+repository-code: "https://github.com/TechStrike-ai/AGICE-Public"
+license: "CC-BY-4.0"
+authors:
+  - family-names: "El Mohammady"
+    given-names: "Ahmed"
+preferred-citation:
+  type: article
+  title: "Addressing Reasoning Failures in Language Models"
+  identifiers:
+    - type: arxiv
+      value: "2602.06176"

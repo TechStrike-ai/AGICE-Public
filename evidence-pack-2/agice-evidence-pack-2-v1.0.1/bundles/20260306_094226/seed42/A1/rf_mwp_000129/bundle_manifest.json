@@ -1,0 +1,126 @@
+{
+  "bundle_id": "a87416e5-51b8-4ecf-a426-368d8f4dfa52",
+  "config_id": "d7f3e14c6d306b691dbede3ce36d53f82b855a3581717d968d2b74a0b0990ea5",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "3de822d4ca95946019170c88702d0b78674321f444b06f0e7678c09df57f3332",
+  "final_decision": {
+    "code": "import sys\n\ndef process_sentence(sentence):\n    # Split by '|' to ignore distractor parts\n    sentence = sentence.split('|')[0].strip()\n    parts = sentence.split()\n    name = parts[0]  # Name is the first word\n    N = int(parts[2])  # Number of items is the third word\n    M = int(parts[-2])  # Amount bought/given is the second to last word\n    if 'buys' in sentence:\n        return N + M\n    elif 'gave' in sentence or 'gives' in sentence:\n        if M <= N:\n            return N - M\n        else:\n            return 'INVALID'\n    return 'INVALID'\n\nif __name__ == '__main__':\n    input = sys.stdin.read\n    data = input().strip().split('\\n')\n    t = int(data[0])\n    results = []\n    for i in range(1, t + 1):\n        result = process_sentence(data[i])\n        results.append(result)\n    print('\\n'.join(map(str, results)))",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 1,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 143,
+    "events_hash_chain_tip": "b95890177a885e1d95e49dba0935573c49fd2462f28ad37006489d46023567be"
+  },
+  "provenance": {
+    "config_path": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/configs/custom_failures_allmodefail_wider_drop5_nostarve_fairstable.yaml",
+    "config_sha256": "f02181616444ee11c4d239725d84c1434a795ae59734dcd698053576ef16370f",
+    "evaluated_task_ids": [
+      "rf_mwp_000120",
+      "rf_mwp_000121",
+      "rf_mwp_000122",
+      "rf_mwp_000123",
+      "rf_mwp_000124",
+      "rf_mwp_000125",
+      "rf_mwp_000126",
+      "rf_mwp_000127",
+      "rf_mwp_000128",
+      "rf_mwp_000129"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260306_094226",
+    "seed_base": 42,
+    "slice_id": "chunks_allmodefail_wider_drop5_first20_seed42_fairstable_rerun_v1/chunk_001.jsonl",
+    "slice_sha256": "8c8c772ca95e4a1c5ea422611be656e8749b3db4c214615143258055755793b0",
+    "task_count": 10,
+    "task_family": "custom_failures",
+    "task_index": 9,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "variant_id": "v0_base",
+    "variant_index": 0,
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": false,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": false,
+      "enable_ruff_oracle": false,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 20,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 10,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "ca09e32c6fea3f2e521871c9d9a0b2ee1af05383f060bff8e7f43735f0d9d1ea"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "a3bc3e7d8eff9d71a77a9a334aa11a8c5b5bd5a9442a8dc95a70134ac2e5540b"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "3419f8c7c579a6ed8af76fe918295ed1de23b9e50f40a3d626cd956741d83c70"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "b7c3135757402ab1e0e005c63c1037c3e754d838db3d7acf40db54c685352031"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "3da62b560bc3e51ad7a320fdf8f4a7a50c64be2bfdb106321973872353ce5ef0"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "30bc37170a27be47c3de625b4fe123ebdf4443357482518e51cc9da5abaca9d5"
+    }
+  ],
+  "run_id": "20260306_094226",
+  "seed": 42,
+  "task_id": "rf_mwp_000129__v0_base"
+}

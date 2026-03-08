@@ -1,0 +1,13 @@
+{
+  "bundle_dir": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/runs/allmodefail_wider_drop5_first20_seed42_fairstable_rerun_v1_runs/chunk_002/20260306_135645/A3/bundles/rf_mwp_000137__v0_base",
+  "deterministic_flags": {
+    "PYTHONHASHSEED": "0"
+  },
+  "generator_id": "gpt-4o-mini",
+  "instructions": [
+    "Re-run verifiers using recorded seeds and environment hashes.",
+    "Compare verifier outputs and arbitration decisions.",
+    "Verify events.jsonl hash chain integrity."
+  ],
+  "seed": 42
+}

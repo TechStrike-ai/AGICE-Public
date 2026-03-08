@@ -1,0 +1,13 @@
+{
+  "bundle_dir": "runs/drop4_gmdt_stress_v1_full_parallel_pass2/seed42/20260220_095005/A2/bundles/hard2_angular_sort",
+  "deterministic_flags": {
+    "PYTHONHASHSEED": "0"
+  },
+  "generator_id": "gpt-4o-mini",
+  "instructions": [
+    "Re-run verifiers using recorded seeds and environment hashes.",
+    "Compare verifier outputs and arbitration decisions.",
+    "Verify events.jsonl hash chain integrity."
+  ],
+  "seed": 42
+}

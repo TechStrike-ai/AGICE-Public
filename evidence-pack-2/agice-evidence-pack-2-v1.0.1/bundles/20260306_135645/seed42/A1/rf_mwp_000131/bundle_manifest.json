@@ -1,0 +1,126 @@
+{
+  "bundle_id": "7041eb70-db03-4ecf-b2d5-fe20a6920bbb",
+  "config_id": "d7f3e14c6d306b691dbede3ce36d53f82b855a3581717d968d2b74a0b0990ea5",
+  "environment": {
+    "model": "gpt-4o-mini",
+    "python_version": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]"
+  },
+  "environment_hash": "3de822d4ca95946019170c88702d0b78674321f444b06f0e7678c09df57f3332",
+  "final_decision": {
+    "code": "import sys\n\ndef process_sentence(sentence):\n    # Split on '|' to ignore distractors\n    main_part = sentence.split('|')[0].strip()\n    # Identify the pattern\n    if 'has' in main_part and 'buys' in main_part:\n        # Pattern 1: <Name> has N apples and buys M more.\n        parts = main_part.split()\n        N = int(parts[parts.index('has') + 1])\n        M = int(parts[parts.index('buys') + 1])\n        return N + M\n    elif 'had' in main_part and 'gave' in main_part:\n        # Pattern 2: <Name> had N candies and gave M away.\n        parts = main_part.split()\n        N = int(parts[parts.index('had') + 1])\n        M = int(parts[parts.index('gave') + 1])\n        return N - M if M <= N else 'INVALID'\n    elif 'has' in main_part and 'gives away' in main_part:\n        # Pattern 3: <Name> has N marbles and gives away M marbles.\n        parts = main_part.split()\n        N = int(parts[parts.index('has') + 1])\n        M = int(parts[parts.index('gives') + 2])\n        return N - M if M <= N else 'INVALID'\n    return 'INVALID'\n\nif __name__ == '__main__':\n    input = sys.stdin.read().strip().split('\\n')\n    t = int(input[0])\n    results = []\n    for i in range(1, t + 1):\n        result = process_sentence(input[i])\n        results.append(result)\n    for res in results:\n        print(res)",
+    "loss": 0.0,
+    "projection_id": "base",
+    "round": 4,
+    "solved": true
+  },
+  "generator_id": "gpt-4o-mini",
+  "integrity": {
+    "events_count": 143,
+    "events_hash_chain_tip": "37633e38b52c541244c0a444356085d608a5d122bbc15abdc39cfcad34c73da3"
+  },
+  "provenance": {
+    "config_path": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/configs/custom_failures_allmodefail_wider_drop5_nostarve_fairstable.yaml",
+    "config_sha256": "f02181616444ee11c4d239725d84c1434a795ae59734dcd698053576ef16370f",
+    "evaluated_task_ids": [
+      "rf_mwp_000130",
+      "rf_mwp_000131",
+      "rf_mwp_000132",
+      "rf_mwp_000133",
+      "rf_mwp_000134",
+      "rf_mwp_000135",
+      "rf_mwp_000136",
+      "rf_mwp_000137",
+      "rf_mwp_000138",
+      "rf_mwp_000139"
+    ],
+    "model": "gpt-4o-mini",
+    "reasoning_effort": "",
+    "run_id": "20260306_135645",
+    "seed_base": 42,
+    "slice_id": "chunks_allmodefail_wider_drop5_first20_seed42_fairstable_rerun_v1/chunk_002.jsonl",
+    "slice_sha256": "756c7d9d5ce46ef12eebf79f26cccc6046dda6ad88c6162b08c18035a8ca6fab",
+    "task_count": 10,
+    "task_family": "custom_failures",
+    "task_index": 1,
+    "task_manifest": {
+      "commit": "",
+      "repo_url": ""
+    },
+    "variant_id": "v0_base",
+    "variant_index": 0,
+    "verifier_runner_cfg": {
+      "enable_hypothesis_oracle": false,
+      "enable_lint_oracle": true,
+      "enable_mypy_oracle": false,
+      "enable_pyright_oracle": false,
+      "enable_ruff_oracle": false,
+      "hidden_test_label_prefixes": [
+        "private_",
+        "hidden_",
+        "secret_"
+      ],
+      "hypothesis_examples": 12,
+      "max_seconds": 20,
+      "mypy_bin": "mypy",
+      "pyright_bin": "pyright",
+      "python_bin": "/home/ahmed/projects/AGICEv3/AGICEv3_repo/.venv/bin/python",
+      "redact_hidden_test_details": true,
+      "ruff_bin": "ruff",
+      "static_oracle_timeout_seconds": 10,
+      "strict_external_oracles": false
+    }
+  },
+  "rounds": [
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 0,
+      "x_canonical_hash": null,
+      "x_hash": "1e8b4987f40206522af54726d2f0dbf9d89a6314011b30c9bf865a7293895da1"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 1,
+      "x_canonical_hash": null,
+      "x_hash": "2bcfe6f137fcd4606a9497922e04355e72e10ce8f54469b845fb31347a0309b3"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 2,
+      "x_canonical_hash": null,
+      "x_hash": "0837da602b70b59efb178ca218597f16d25b06893e779804ac2b5e3fbb6c1375"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 3,
+      "x_canonical_hash": null,
+      "x_hash": "295dc459d601e429085b872455c6f19b4162b5e72e0c5aba83c1d3c80730487f"
+    },
+    {
+      "hard_passed": true,
+      "loss": 0.0,
+      "projection": "base",
+      "round": 4,
+      "x_canonical_hash": null,
+      "x_hash": "1f896f048b2c3a23c3a19a404a1b907880c3f2b2f3af09414882052a1ffd53d0"
+    },
+    {
+      "hard_passed": false,
+      "loss": 1.0,
+      "projection": "base",
+      "round": 5,
+      "x_canonical_hash": null,
+      "x_hash": "ef9ae73cae8d74316399029528ac328ca9eb8bdb699b817a79721f094e18dc58"
+    }
+  ],
+  "run_id": "20260306_135645",
+  "seed": 42,
+  "task_id": "rf_mwp_000131__v0_base"
+}

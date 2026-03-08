@@ -1,0 +1,25 @@
+{
+  "schema_version": "agice-evidence-run-meta.v1",
+  "pack_name": "agice-evidence-pack-1-v1.0.4",
+  "source_branch": "main",
+  "code_commit": "465e4295d6fabff8e8812595fd8a6a7a45600e2d",
+  "code_tag": "evidence-lcb-v1",
+  "slice_id": "gmdt_stress_v1",
+  "seeds": [
+    42,
+    100,
+    200
+  ],
+  "config_hashes": [
+    {
+      "path": "configs/drop4_matched_compute_stress.yaml",
+      "sha256": "6191a48ca0d3dac54973599145cd99489bf1e52885f1a8db8f0e24c14e444ebd"
+    }
+  ],
+  "tooling": {
+    "verify_offline": "verification/verify_offline.py",
+    "demo_replay": "demo-replay.sh",
+    "replay_summary": "verification/replay_summary.py"
+  },
+  "notes": "LCB evidence pack produced from main branch and pinned by evidence-lcb-v1 tag."
+}
